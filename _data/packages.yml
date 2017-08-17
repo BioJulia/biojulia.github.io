@@ -67,3 +67,8 @@
 - name: WaveletMatrices.jl
   link: https://github.com/BioJulia/WaveletMatrices.jl
   type: infrastructure
+
+- name: BioStructures.jl
+  link: https://github.com/BioJulia/BioStructures.jl
+  tagline: Macromolecular structures
+  type: biology
