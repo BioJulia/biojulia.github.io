@@ -7,7 +7,7 @@
     <meta name="generator" content="Source Themes Academic 4.7.0">
     <meta name="author" content="Ben J. Ward">
     <meta name="description" content="Introduction In October 2019, a paper was published in Proceedings of the ACM on Programming Languages, introducing a new language for bioinformatics called Seq.
-In it, the authors rightly recognize that the field of bioinformatics is in need of a high-performance, yet expressive and productive language.
+In it, the authors rightly recognise that the field of bioinformatics is in need of a high-performance, yet expressive and productive language.
 They present Seq, a domain specific compiled language, with the user friendliness of Python, the performance of C, and bioinformatics-specific data types and optimisations.
 As Julians, we consider their goal to be noble and well worth pursuit.">
     <link rel="alternate" hreflang="en-us" href="https://BioJulia.github.io/post/seq-lang/">
@@ -30,7 +30,7 @@ As Julians, we consider their goal to be noble and well worth pursuit.">
     <meta property="og:url" content="https://BioJulia.github.io/post/seq-lang/">
     <meta property="og:title" content="On the performance and design of BioSequences compared to the Seq language | BioJulia">
     <meta property="og:description" content="Introduction In October 2019, a paper was published in Proceedings of the ACM on Programming Languages, introducing a new language for bioinformatics called Seq.
-In it, the authors rightly recognize that the field of bioinformatics is in need of a high-performance, yet expressive and productive language.
+In it, the authors rightly recognise that the field of bioinformatics is in need of a high-performance, yet expressive and productive language.
 They present Seq, a domain specific compiled language, with the user friendliness of Python, the performance of C, and bioinformatics-specific data types and optimisations.
 As Julians, we consider their goal to be noble and well worth pursuit.">
     <meta property="og:image" content="https://BioJulia.github.io/post/seq-lang/featured.png">
@@ -63,7 +63,7 @@ As Julians, we consider their goal to be noble and well worth pursuit.">
                 "url": "img/https://BioJulia.github.io/"
             }
         },
-        "description": "Introduction In October 2019, a paper was published in Proceedings of the ACM on Programming Languages, introducing a new language for bioinformatics called Seq.\nIn it, the authors rightly recognize that the field of bioinformatics is in need of a high-performance, yet expressive and productive language. They present Seq, a domain specific compiled language, with the user friendliness of Python, the performance of C, and bioinformatics-specific data types and optimisations. As Julians, we consider their goal to be noble and well worth pursuit. " } </script>
+        "description": "Introduction In October 2019, a paper was published in Proceedings of the ACM on Programming Languages, introducing a new language for bioinformatics called Seq.\nIn it, the authors rightly recognise that the field of bioinformatics is in need of a high-performance, yet expressive and productive language. They present Seq, a domain specific compiled language, with the user friendliness of Python, the performance of C, and bioinformatics-specific data types and optimisations. As Julians, we consider their goal to be noble and well worth pursuit. " } </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
     <script> window.addEventListener("load", function () {
@@ -148,7 +148,7 @@ Ward</a></span></div>
             <p>In October 2019, a paper was published in Proceedings of the ACM on Programming Languages, introducing a new language for bioinformatics called
                 <a href="https://dl.acm.org/doi/10.1145/3360551">Seq</a>.
             </p>
-            <p>In it, the authors rightly recognize that the field of bioinformatics is in need of a high-performance, yet expressive and productive language.
+            <p>In it, the authors rightly recognise that the field of bioinformatics is in need of a high-performance, yet expressive and productive language.
                They present Seq, a domain specific compiled language, with the user friendliness of Python, the performance of C, and bioinformatics-specific data types and optimisations.
                As Julians, we consider their goal to be noble and well worth pursuit.
                However, they also presented a series of benchmarking results in which they claim the performance of Seq code is far greater than equivalent code written in other languages, including C++ and Julia.
@@ -189,22 +189,22 @@ Ward</a></span></div>
             <p><img src="fig1.png" alt="figure-1"> <strong>Figure 1.
                                                            Running time of BioJulia (blue) versus Seq (red).
                                                            We could recreate the authors findings and found Seq to be much faster than BioJulia for the three provided benchmarks.
-                                                           The barplot shows shows the mean +/- stddev time of 5 consecutive runs.</strong>
+                                                           The barplot shows the mean +/- stddev time of 5 consecutive runs.</strong>
             </p>
             <h2 id="improving-the-benchmarked-code">Improving the benchmarked code</h2>
-            <p>As a long time developers and users of BioJulia, we feel qualified to judge whether or not the Julia code used for the benchmarks is idiomatic or not, and whether or not BioJulia was being correctly used.
+            <p>As long-time developers and users of BioJulia, we feel qualified to judge whether or not the Julia code used for the benchmarks is idiomatic or not, and whether or not BioJulia was being correctly used.
                Non-idiomatic Julia is the most common source of complaints when new Julia users benchmark Julia code and find the performance disappointing.
                This often happens because new users code in a way that carries little penalty in languages like R and Python, but which is difficult for Julia’s JIT compiler to optimise.
                So, a natural starting point was to check their Julia code for inefficiencies.
             </p>
-            <p>However, the Seq author’s Julia benchmarks were well implemented.
+            <p>However, the Seq authors' Julia benchmarks were well implemented.
                Only the code for the CpG benchmark could be improved by fixing an error which resulted in incorrect answers, and by computing the result in a single pass of the input sequence.
                The two other benchmarks only needed minor tweaking to be idiomatic.
                These minor changes did not improve the timings of BioJulia markedly (<strong>Figure 2</strong>).
             </p>
             <p><img src="fig2.png" alt="figure-2"> <strong>Figure 2.
                                                            Improving the Julia code of the Seq paper’s benchmarks (green series), did not change the results very much.
-                                                           The barplot shows shows the mean +/- stddev time of 5 consecutive runs.</strong>
+                                                           The barplot shows the mean +/- stddev time of 5 consecutive runs.</strong>
             </p>
             <h2 id="explaining-the-difference-in-performance">Explaining the difference in performance</h2>
             <p>It seems that Seq really is much faster than BioJulia, at least for the benchmarked tasks, and we wanted to know why.
@@ -252,7 +252,7 @@ Ward</a></span></div>
             </ol>
             <p>The encoding/decoding also comes with a disadvantage, as it takes more time than just accessing raw bytes.
                This tradeoff is reminiscent of the pros and cons of a boolean vector versus a bit-vector.
-               As the benchmarks here consists of very simple, fast operations on many small sequences that are read in as text, encoding time dominate.
+               As the benchmarks here consists of very simple, fast operations on many small sequences that are read in as text, encoding time dominates.
             </p>
             <p>In contrast, Seq represents DNA sequences as a byte array with the underlying data simply being the bytes of the input string.
                Constructing this type is obviously much faster than a BioSequence since it can wrap a string directly, but the RAM consumption is 2 or 4 times higher.
@@ -275,7 +275,7 @@ Ward</a></span></div>
             </p>
             <p><img src="fig4.png" alt="figure-4"> <strong>Figure 4.
                                                            Timing a Julia implementation of the data types in Seq (red) resulted in timings which beat those achieved by the Seq code (orange).
-                                                           The barplot shows shows the mean +/- stddev time of 5 consecutive runs.</strong>
+                                                           The barplot shows the mean +/- stddev time of 5 consecutive runs.</strong>
             </p>
             <h2 id="learning-from-seq">Learning from Seq</h2>
             <p>Being challenged often teaches valuable lessons, and the challenge Seq presented to BioJulia is no exception.
@@ -295,8 +295,8 @@ Ward</a></span></div>
                With the updates, BioSequences rivals Seq in speed while keeping its advantages of a lower memory footprint and doing data validation.
             </p>
             <p><img src="fig5.png" alt="figure-5"> <strong>Figure 5.
-                                                           The newest version of BioSequences (purple) comes with performance improvements in encoding, decoding and IO, making it 3-4 times faster than BioSequences v 1.1.0 (green) for these benchmarks, and rivaling Seq (orange).
-                                                           The barplot shows shows the mean +/- stddev time of 5 consecutive runs.</strong>
+                                                           The newest version of BioSequences (purple) comes with performance improvements in encoding, decoding and IO, making it 3-4 times faster than BioSequences v 1.1.0 (green) for these benchmarks, and rivalling Seq (orange).
+                                                           The barplot shows the mean +/- stddev time of 5 consecutive runs.</strong>
             </p>
             <h2 id="our-take-away-impressions">Our take away impressions</h2>
             <h3 id="jakob">Jakob</h3>
@@ -319,7 +319,7 @@ Ward</a></span></div>
                Surely that path, the path that Seq shows us, must lie behind us.
             </p>
             <h3 id="ben">Ben</h3>
-            <p>I can only echo and agreement with Jakob in applauding Seq’s authors efforts in trying to bring a performant programming language to life, and also applaud their efforts in providing reproducible results.</p>
+            <p>I can only echo and agree with Jakob in applauding Seq’s authors efforts in trying to bring a performant programming language to life, and also applaud their efforts in providing reproducible results.</p>
             <p>That said, before playing with these benchmarks it’s fair to say I was fairly skeptical of the idea that what bioinformatics really needs is a domain specific language.
                When I consider critical problems the field faces, my mind goes to problems such as sometimes undocumented, sometimes poorly understood assumptions about biological systems hardcoded into tools (e.g. assembly pipelines that assume levels of ploidy or genome characteristics).
                I think of experiments that start with a single reference genome, and run pipelines of heuristic after heuristic, each with its own slew of parameters and biases.
@@ -341,7 +341,7 @@ Ward</a></span></div>
             <h3 id="benchmarking-environment">Benchmarking environment</h3>
             <p>We ran the code in the Vagrant
                 <a href="https://zenodo.org/record/3374036">virtual machine provided</a> by the authors.
-               In the virtual machine, all software needed to reproduce the benchmarks was there, except the Seq author’s BioJulia code, which
+               In the virtual machine, all software needed to reproduce the benchmarks was there, except the Seq authors' BioJulia code, which
                 <a href="https://github.com/seq-lang/benchmarks/tree/master/paper/idiomatic">was provided upon request</a>.
                The code was run on a 2018 MacBook pro using Julia v 1.0.3 and BioSequences v1.1.0.
                We could not determine the version of Seq used in the VM.
