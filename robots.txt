@@ -1,4 +1,5 @@
+# Algolia-Crawler-Verif: 1E52A9CAF3F3DA0E
+
 User-agent: *
 Allow: /
-
 Sitemap: https://biojulia.dev/sitemap.xml
