@@ -1,0 +1,8 @@
+name = "BioJuliaDocs"
+uuid = "c945f042-1645-41a5-b247-b403eef27208"
+authors = ["Michael Persico <michael.a.persico@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6"
+
