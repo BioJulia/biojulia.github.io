@@ -12,13 +12,23 @@ makedocs(
     format = Documenter.HTML(assets=["assets/favicon.ico"]),
     pages = [
         "BioJulia: Fast, open, easy, software for biology" => "index.md",
+        "Getting Started" => [
+            "getting_started/getting_started.md",
+            "New User Tutorials" => [
+                "getting_started/installation.md",
+            ],
+            "Comparison With Other Packages/Ecosystems" => [
+                "comparisons/biopython.md",
+                "comparisons/bioconductor.md",
+                "comparisons/biojava.md",
+                "comparisons/bioruby.md",
+            ],
+        ],
+        # Showcase of Cool Examples
+        "What is BioJulia" => ["overview.md",
+        ]
     ]
 )
-
-# Documenter can also automatically deploy documentation to gh-pages.
-# See "Hosting Documentation" and deploydocs() in the Documenter manual
-# for more information.
-
 
 deploydocs(
     repo = "https://github.com/M-PERSIC/BioJuliaDocs.git"
