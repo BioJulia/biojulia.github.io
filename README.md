@@ -6,7 +6,7 @@
 [![GitHub Pages status](https://github.com/M-PERSIC/BioJuliaDocs/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/M-PERSIC/BioJuliaDocs/actions/workflows/pages/pages-build-deployment)
 
 
-### See [m-persic.github.io/BioJuliaDocs](m-persic.github.io/BioJuliaDocs) for the live GitHub Pages site!
+### Enter m-persic.github.io/BioJuliaDocs into your search bar for the live GitHub Pages site!
 
 
 ## Description
