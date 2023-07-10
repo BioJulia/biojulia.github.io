@@ -5,6 +5,10 @@
 
 [![GitHub Pages status](https://github.com/M-PERSIC/BioJuliaDocs/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/M-PERSIC/BioJuliaDocs/actions/workflows/pages/pages-build-deployment)
 
+<center>
+<h3>View the test website: <a href="m-persic.github.io/BioJuliaDocs">m-persic.github.io/BioJuliaDocs</a></h3>
+</center>
+
 ## Description
 The BioJuliaDocs initiative is an in-development project to produce a landing site for BioJulia similar to [SciMLDocs](https://github.com/SciML/SciMLDocs) (see the production page [here](https://docs.sciml.ai/Overview/stable/)).
 
