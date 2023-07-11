@@ -4,6 +4,7 @@
 > It is not in a ready state, and is published under GitHub Pages only for testing purposes. 
 
 [![GitHub Pages status](https://github.com/M-PERSIC/BioJuliaDocs/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/M-PERSIC/BioJuliaDocs/actions/workflows/pages/pages-build-deployment)
+[![Static Badge](https://img.shields.io/badge/Docs-stable-blue)](https://m-persic.github.io/BioJuliaDocs)
 
 
 ### Enter m-persic.github.io/BioJuliaDocs into your search bar for the live GitHub Pages site!
