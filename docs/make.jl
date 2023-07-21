@@ -18,10 +18,7 @@ makedocs(
                 "getting_started/installation.md",
             ],
             "Comparison With Other Packages/Ecosystems" => [
-                "comparisons/biopython.md",
-                "comparisons/bioconductor.md",
-                "comparisons/biojava.md",
-                "comparisons/bioruby.md",
+                "comparisons/comparisons.md",
             ],
         ],
         # Showcase of Cool Examples

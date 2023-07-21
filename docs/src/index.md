@@ -6,7 +6,7 @@
 BioJulia is a passionate, community-led organization providing biology-related packages written 
 in the [Julia programming language](https://julialang.org/). The organization offers a comprehensive, 
 fully open-source ecosystem of both libraries that serve as essential building blocks for other packages 
-as well as interactive tools for powering everyday tasks and workflows. 
+as well as interactive tools for everyday tasks and workflows. 
 
 Biologists are fully empowered by Julia to easily tackle domain-specific challenges, taking advantage of features including:
 - [Fully reproducible environments](https://pkgdocs.julialang.org/v1/environments/) thanks to Julia's built-in package manager
