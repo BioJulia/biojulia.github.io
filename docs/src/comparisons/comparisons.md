@@ -2,7 +2,7 @@
 
 - [BioPython](https://biopython.org/) represents an ecosystem of related biology tools written in the Python3 programming language
 - Unlike in BioJulia, BioPython tools are installed together as modules into a single `biopython` package 
-- Is more mature (begun over two decades ago with major releases covering the Python2/3 transition)
+- Released over two decades ago with major releases covering the Python2/3 transition
 - Capabilities cover a number of molecular biology applications including sequence alignment, population genetics, and machine learning
 
 | Application         | BioJulia Package                                                                                                                              | BioPython object/module    |
@@ -14,7 +14,7 @@
 
 **A few package/ecosystem equivalents between Julia and Python3:**
 
-| Application                | Julia                                                                                                                                                                               | R                                                     |
+| Application                | Julia                                                                                                                                                                               | Python3                                                     |
 | :------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------- |
 | Data manipulation/analysis | [DataFrames](https://dataframes.juliadata.org/stable/), [Query](https://www.queryverse.org/Query.jl/stable/)                                                                        | `pandas`, `Blaze`                                     |
 | Plotting/visualization     | [Plots](https://docs.juliaplots.org/stable/), [Gadfly](http://gadflyjl.org/stable/), [Makie](https://docs.makie.org/stable/)                                                        | `matplotlib`, `seaborn`, `bokeh`, `plotnine`, `VisPy` |
@@ -44,15 +44,15 @@
 ## BioConductor (R)
 
 - [BioConductor](https://www.bioconductor.org/) represents an ecosystem of related genomics tools _primarily_ written in the R programming language
-- Tools written in other languages, such as C and Python, can also be included in BioConductor with R wrappers available 
-- Is more mature (begun over two decades ago with major releases covering the Python2/3 transition)
+- Tools written in other languages, such as C and Python, are also included in BioConductor with R wrappers available 
+- Released in 2001 with 3 major releases and hosts over 2000 packages
 - Capabilities cover a number of molecular biology applications including sequence alignment, population genetics, and machine learning
 
 | Application                | BioJulia Package                                                                                                                               | BioConductor package                    |
 | :------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------- |
 | Core primitives/interfaces | [BioGenerics](https://biojulia.dev/BioGenerics.jl/stable/), [BioSymbols](https://biojulia.dev/BioSymbols.jl/stable/)                           | `BiocGenerics`, `Biobase`               |
 | Sequence annotation        | [BioSymbols](https://biojulia.dev/BioSymbols.jl/stable/), [BioSequences](https://biojulia.dev/BioSequences.jl/stable/)                         | `Seq`, `SeqRecord`                      |
-| Input/Output               | [FASTX](https://biojulia.dev/FASTX.jl/stable/), [XAM.](https://biojulia.dev/XAM.jl/stable/), [BigWig](https://biojulia.dev/BigWig.jl/dev/),... | `BiocIO`, `BioStrings`, `ShortRead`,... |
+| Input/Output               | [FASTX](https://biojulia.dev/FASTX.jl/stable/), [XAM.](https://biojulia.dev/XAM.jl/stable/), [BigWig](https://biojulia.dev/BigWig.jl/dev/),... | `BiocIO`, `Biostrings`, `ShortRead`,... |
 | Sequence alignment         | [BioAlignments](https://biojulia.dev/BioAlignments.jl/stable/)                                                                                 | `Bio.Align`                             |
 | Population genetics        | [PopGen](https://biojulia.dev/PopGen.jl/)                                                                                                      | `Bio.PopGen`                            |
 
@@ -65,7 +65,6 @@
 | Statistical analysis       | [Statistics](https://docs.julialang.org/en/v1/stdlib/Statistics/), [HypothesisTests](https://github.com/JuliaStats/HypothesisTests.jl), [GLM](https://github.com/JuliaStats/GLM.jl) | `stats`                                |
 | Machine learning           | [Flux](https://fluxml.ai/Flux.jl/stable/), [SciML](https://sciml.ai/), [Zygote](https://fluxml.ai/Zygote.jl/stable/)                                                                | `mlr3`, `caret`, `tidymodels`, `Deriv` |
 | Numerical mathematics      | [LinearAlgebra](https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/), [IterativeSolvers](https://iterativesolvers.julialinearalgebra.org/dev/)                                   | `Matrix`, `pracma`, `deSolve`          |
-| DateTime                   | [Dates](https://docs.julialang.org/en/v1/stdlib/Dates/), [TimeZones](https://github.com/JuliaTime/TimeZones.jl)                                                                     | `lubridate`                            |
 | Web applications           | [Genie](https://genieframework.com/), [Franklin](https://franklinjl.org/)                                                                                                           | `shiny`                                |
 
 **A few notable differences between Julia and R:**
