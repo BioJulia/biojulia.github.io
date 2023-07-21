@@ -12,6 +12,18 @@
 | Sequence alignment  | [BioAlignments](https://biojulia.dev/BioAlignments.jl/stable/)                                                                                | `Bio.Align`                |
 | Population genetics | [PopGen](https://biojulia.dev/PopGen.jl/)                                                                                                     | `Bio.PopGen`               |
 
+**A few package/ecosystem equivalents between Julia and Python3:**
+
+| Application                | Julia                                                                                                                                                                               | R                                                     |
+| :------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------- |
+| Data manipulation/analysis | [DataFrames](https://dataframes.juliadata.org/stable/), [Query](https://www.queryverse.org/Query.jl/stable/)                                                                        | `pandas`, `Blaze`                                     |
+| Plotting/visualization     | [Plots](https://docs.juliaplots.org/stable/), [Gadfly](http://gadflyjl.org/stable/), [Makie](https://docs.makie.org/stable/)                                                        | `matplotlib`, `seaborn`, `bokeh`, `plotnine`, `VisPy` |
+| Statistical analysis       | [Statistics](https://docs.julialang.org/en/v1/stdlib/Statistics/), [HypothesisTests](https://github.com/JuliaStats/HypothesisTests.jl), [GLM](https://github.com/JuliaStats/GLM.jl) | `SciPy`, `statsmodels`                                |
+| Machine learning           | [Flux](https://fluxml.ai/Flux.jl/stable/), [SciML](https://sciml.ai/), [Zygote](https://fluxml.ai/Zygote.jl/stable/)                                                                | `PyTorch`, `TensorFlow`, `scikit-learn`, `JAX`        |
+| Numerical mathematics      | [LinearAlgebra](https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/), [Symbolics](https://symbolics.juliasymbolics.org/stable/)                                                  | `NumPy`, `SciPy`, `SymPy`                             |
+| Notebook/report generator  | [IJulia](https://julialang.github.io/IJulia.jl/stable/), [Pluto](https://plutojl.org/), [Weave](https://weavejl.mpastell.com/stable/)                                               | `IPython`, `Jupyter Book`                             |
+| Web applications           | [Genie](https://genieframework.com/), [Franklin](https://franklinjl.org/)                                                                                                           | `Django`, `Flask`, `Pelican`, `Dash`                  |
+
 **A few notable differences between Julia and Python3:**
 
 | Julia                                                                  | Python3                                                                  |
@@ -22,6 +34,7 @@
 | Built-in parallelism via threads, coroutines (Tasks)                   | Limited (GIL) parallelism via threads, async/await                       |
 | Extensive metaprogramming (Lisp-like macros, homoiconicity,...)        | Less extensive metaprogramming (decorators, metaclasses,...)             |
 | Included default package manager                                       | No default package manager (poetry, conda, other alternatives available) |
+| Single implementation available (JuliaLang)                            | Multiple implementations available (PyPy, Numba,...)                     |
 | Arrays are column-major (columns are contiguous in memory)             | (Numpy) arrays are row-major by default (rows are contiguous in memory)  |
 
 **To transition from Python3 to Julia:**
@@ -43,17 +56,16 @@
 | Sequence alignment         | [BioAlignments](https://biojulia.dev/BioAlignments.jl/stable/)                                                                                 | `Bio.Align`                             |
 | Population genetics        | [PopGen](https://biojulia.dev/PopGen.jl/)                                                                                                      | `Bio.PopGen`                            |
 
-**A few package equivalents between Julia and R:**
+**A few package/ecosystem equivalents between Julia and R:**
 
 | Application                | Julia                                                                                                                                                                               | R                                      |
 | :------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------- |
-| Data manipulation/analysis | [DataFrames](https://dataframes.juliadata.org/stable/), [Tidier](https://tidierorg.github.io/Tidier.jl/stable/)                                                                     | `tibble`, `dplyr`                      |
+| Data manipulation/analysis | [DataFrames](https://dataframes.juliadata.org/stable/), [Query](https://www.queryverse.org/Query.jl/stable/)                                                                        | `tibble`, `dplyr`                      |
 | Plotting/visualization     | [Gadfly](http://gadflyjl.org/stable/), [VegaLite](https://www.queryverse.org/VegaLite.jl/stable/), [Makie](https://docs.makie.org/stable/)                                          | `ggplot2`, `vegalite`, `plotly`        |
 | Statistical analysis       | [Statistics](https://docs.julialang.org/en/v1/stdlib/Statistics/), [HypothesisTests](https://github.com/JuliaStats/HypothesisTests.jl), [GLM](https://github.com/JuliaStats/GLM.jl) | `stats`                                |
 | Machine learning           | [Flux](https://fluxml.ai/Flux.jl/stable/), [SciML](https://sciml.ai/), [Zygote](https://fluxml.ai/Zygote.jl/stable/)                                                                | `mlr3`, `caret`, `tidymodels`, `Deriv` |
 | Numerical mathematics      | [LinearAlgebra](https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/), [IterativeSolvers](https://iterativesolvers.julialinearalgebra.org/dev/)                                   | `Matrix`, `pracma`, `deSolve`          |
 | DateTime                   | [Dates](https://docs.julialang.org/en/v1/stdlib/Dates/), [TimeZones](https://github.com/JuliaTime/TimeZones.jl)                                                                     | `lubridate`                            |
-| Notebook/report generator  | [Pluto](https://plutojl.org/), [Weave](https://weavejl.mpastell.com/stable/)                                                                                                        | `rmarkdown`, `knitr`                   |
 | Web applications           | [Genie](https://genieframework.com/), [Franklin](https://franklinjl.org/)                                                                                                           | `shiny`                                |
 
 **A few notable differences between Julia and R:**
