@@ -12,7 +12,7 @@
 | Sequence alignment  | [BioAlignments](https://biojulia.dev/BioAlignments.jl/stable/)                                                                                | `Bio.Align`                |
 | Population genetics | [PopGen](https://biojulia.dev/PopGen.jl/) | `Bio.PopGen` |
 
-Some notable differences between Julia and Python3:
+**Some notable differences between Julia and Python3:**
 
 | Julia                                                                  | Python3                                                                  |
 | :--------------------------------------------------------------------- | :----------------------------------------------------------------------- |
@@ -24,7 +24,7 @@ Some notable differences between Julia and Python3:
 | Included default package manager                                       | No default package manager (poetry, conda, other alternatives available) |
 | Arrays are column-major (columns are contiguous in memory)             | (Numpy) arrays are row-major by default (rows are contiguous in memory)  |
 
-To transition from Python3 to Julia:
+**To transition from Python3 to Julia:**
 - See [Noteworthy differences from Python](https://docs.julialang.org/en/v1/manual/noteworthy-differences/#Noteworthy-differences-from-Python) in the Julia manual 
 - Use [PythonCall.jl](https://github.com/cjdoris/PythonCall.jl.git)/[CondaPkg.jl](CondaPkg.jl) to seamlessly integrate Python3 code into your Julia project
 
