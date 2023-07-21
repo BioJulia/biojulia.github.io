@@ -10,7 +10,8 @@ as well as interactive tools for everyday tasks and workflows.
 
 Biologists are fully empowered by Julia to easily tackle domain-specific challenges, taking advantage of features including:
 - [Fully reproducible environments](https://pkgdocs.julialang.org/v1/environments/) thanks to Julia's built-in package manager
-- [Competitive performance](https://julialang.org/benchmarks/) that rivals that of lower-level, more complex languages such as C and Fortran 
+- [Competitive performance](https://julialang.org/benchmarks/) that rivals that of lower-level, more complex languages such as C and Fortran
+- [Unicode-based math symbol support](https://docs.julialang.org/en/v1/manual/unicode-input/), [transparent BLAS integration](https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/#man-linalg), and additional features for performing complex numerical operations   
 - [A batteries-included read-eval-print loop (REPL)](https://docs.julialang.org/en/v1/stdlib/REPL/#The-Julia-REPL) for interactive data exploration and prototyping
 - [Seamless interoperability](https://docs.julialang.org/en/v1/manual/calling-c-and-fortran-code/#Calling-C-and-Fortran-Code) [(JLLs,](https://docs.binarybuilder.org/stable/#Project-flow) [Cmd,...)](https://docs.julialang.org/en/v1/manual/running-external-programs/#Running-External-Programs) with other languages via multiple foreign function interfaces
 
