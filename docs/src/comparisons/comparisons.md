@@ -1,11 +1,11 @@
-## BioPython (Python3)
+## Biopython (Python3)
 
-- [BioPython](https://biopython.org/) represents an ecosystem of related biology tools written in the Python3 programming language
-- Unlike in BioJulia, BioPython tools are installed together as modules into a single `biopython` package 
+- [Biopython](https://biopython.org/) represents an ecosystem of related biology tools written in the Python3 programming language
+- Unlike in BioJulia, Biopython tools are installed together as modules into a single `biopython` package 
 - Released over two decades ago with major releases covering the Python2/3 transition
 - Capabilities cover a number of molecular biology applications including sequence alignment, population genetics, and machine learning
 
-| Application         | BioJulia Package                                                                                                                              | BioPython object/module    |
+| Application         | BioJulia Package                                                                                                                              | Biopython object/module    |
 | :------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------- |
 | Sequence annotation | [BioSymbols](https://biojulia.dev/BioSymbols.jl/stable/), [BioSequences](https://biojulia.dev/BioSequences.jl/stable/)                        | `Seq`, `SeqRecord`         |
 | Input/Output        | [FASTX](https://biojulia.dev/FASTX.jl/stable/), [XAM](https://biojulia.dev/XAM.jl/stable/), [BigWig](https://biojulia.dev/BigWig.jl/dev/),... | `Bio.SeqIO`, `Bio.AlignIO` |
