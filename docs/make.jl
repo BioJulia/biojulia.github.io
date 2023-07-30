@@ -28,5 +28,5 @@ makedocs(
 )
 
 deploydocs(
-    repo = "https://github.com/M-PERSIC/BioJuliaDocs.git"
+    repo = "https://github.com/BioJulia/BioJuliaDocs.git"
 )
