@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+   <link rel="stylesheet" href="/biojulia.github.io/libs/highlight/styles/github.min.css">
+   
+  <link rel="stylesheet" href="/biojulia.github.io/css/franklin.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Source+Code+Pro:400,700" type="text/css">
+<link rel="stylesheet" href="/biojulia.github.io/css/font-awesome.min.css">
+<link rel="stylesheet" href="/biojulia.github.io/css/celeste.min.css">
+
+<link rel="icon" type="image/png" sizes="192x192" href="/biojulia.github.io/assets/favicon.png">
+<link rel="shortcut icon" href="/biojulia.github.io/assets/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/biojulia.github.io/assets/apple-touch-icon.png">
+
+   <title>Bio.jl is old and deprecated</title>  
+</head>
+<body>
+  <header>
+<nav class="nav-main">
+  <ul>
+    <li class="hvr-underline-reveal"><a href="/biojulia.github.io/">Home</a></li>
+    <li class="hvr-underline-reveal"><a href="/biojulia.github.io/#Posts">Posts</a></li>
+    <li class="logo"><a class="hvr-ripple-out" href="/biojulia.github.io/">C</a></li>
+    <li class="hvr-underline-reveal"><a href="/biojulia.github.io/#People">People</a></li>
+    <li class="hvr-underline-reveal"><a href="https://juliahub.com/ui/Packages?q=BioJulia">Packages</a></li>
+  </ul>
+</nav>
+</header>
+
+
+
+
+<div class="franklin-content" >
+  <h1 id="bio.jl_is_old_and_deprecated" ><a href="#bio.jl_is_old_and_deprecated"> Bio.jl is old and deprecated</a></h1><img src="/biojulia.github.io/assets/biojulia-logo1.png" alt="biojulia logo"><p>Hi there! There have been incidents of confusion where newer users have tried to install and run an old and deprecated BioJulia package called <code>Bio.jl</code>, or they have not known which package(s) they need to install in order to start working.</p>
+<p>So I'd like to take the opportunity to clear this situation up and perhaps put out a clearer explanation, of why Bio.jl exists when there are other packages with overlapping functionality.</p>
+<p>Bio.jl was the first package BioJulia produced, at a time when the scale of the project meant it made sense to have a single module - Bio - with several submodules</p>
+<p>    <code>Seq</code>, <code>Align</code>, <code>Phylo</code>, <code>Intervals</code>, <code>Structure</code>, <code>Var</code>, <code>Services</code>, <code>Tools</code>.</p>
+<p>Bio has existed since very early days - or versions - of julia as well.</p>
+<p>Eventually there came a point where datatype and algorithm specific packages made more sense than a single monolithic repository.</p>
+<p>And so the package got split into many:</p>
+<ul>
+<li><code>Bio.Seq</code> became <a href="https://github.com/BioJulia/BioSequences.jl/"><code>BioSequences.jl</code></a></li>
+<li><code>Bio.Align</code> became <a href="https://github.com/BioJulia/BioAlignments.jl/"><code>BioAlignments.jl</code></a></li>
+<li><code>Bio.Intervals</code> became <a href="https://github.com/BioJulia/GenomicFeatures.jl/"><code>GenomicFeatures.jl</code></a></li>
+<li><code>Bio.Structure</code> became <a href="https://github.com/BioJulia/BioStructures.jl/"><code>BioStructures.jl</code></a></li>
+<li><code>Bio.Var</code> became <a href="https://github.com/BioJulia/GeneticVariation.jl/"><code>GeneticVariation.jl</code></a></li>
+<li><code>Bio.Phylo</code> became <a href="https://github.com/BioJulia/Phylogenies.jl/"><code>Phylogenies.jl</code></a></li>
+<li><code>Bio.Services</code> became <a href="https://github.com/BioJulia/BioServices.jl/"><code>BioServices.jl</code></a></li>
+<li><code>Bio.Tools</code> became <a href="https://github.com/BioJulia/BioTools.jl/"><code>BioTools.jl</code></a></li>
+</ul>
+<p><code>Bio.jl</code> then basically persisted as a convenience wrapper around those packages, so that they could be installed with a single command and were distributed set to compatible versions.</p>
+<p>With julia v0.7/v1.0 and the new <code>Pkg</code> and Project system the need for <code>Bio.jl</code> to provide that functionality became largely moot.</p>
+<h2 id="so_what_should_you_do?" ><a href="#so_what_should_you_do?"> So what should you do?</a></h2><p>As of today, <code>Bio.jl</code> is available for installation, but mostly just to prevent old scripts and projects breaking.</p>
+<p>It is not longer recommended that you use <code>Bio.jl</code>. Instead you should start a julia project and add just the BioJulia packages you want to use. For a brief description on how to do this, check out the getting started page.</p>
+<p>Happy hacking.</p>
+<p>Sabrina.</p>
+
+  <div class="page-foot">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> sabrina. Last modified: 1.6908156444461966e9.
+    Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+</div>
+
+</div>
+
+    
+    
+        <script src="/biojulia.github.io/libs/highlight/highlight.min.js"></script>
+<script>hljs.highlightAll();hljs.configure({tabReplace: '    '});</script>
+
+    
+  </body>
+</html>
