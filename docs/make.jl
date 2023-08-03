@@ -13,12 +13,18 @@ makedocs(
     pages = [
         "BioJulia: Fast, open, easy, software for biology" => "index.md",
         "Getting Started" => [
-            "getting_started/getting_started.md",
             "New User Tutorials" => [
-                "getting_started/installation.md",
+                "getting_started/juliainstallation.md",
+                "getting_started/toolsinstallation.md",
+                "getting_started/biojuliainstallation.md",
             ],
             "Comparison With Other Packages/Ecosystems" => [
-                "comparisons/comparisons.md",
+                "comparisons/biopython.md",
+                "comparisons/scikitbio.md",
+                "comparisons/bioconductor.md",
+                "comparisons/bioperl.md",
+                "comparisons/biojava.md",
+                "comparisons/bioruby.md",
             ],
         ],
         # Showcase of Cool Examples
@@ -28,5 +34,6 @@ makedocs(
 )
 
 deploydocs(
-    repo = "https://github.com/BioJulia/BioJuliaDocs.git"
+    repo = "https://github.com/BioJulia/BioJuliaDocs.git",
+    push_preview = true,
 )
