@@ -257,7 +257,8 @@ td {
   width: auto;
   text-align: auto;
   padding-left: auto;
-  display: auto;
+  display: inline-block;
+  padding-left: 0%;
 }
 
 /* ==================================================================
