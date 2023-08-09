@@ -15,3 +15,4 @@
     },
     "onCreateCommand": "julia --project=docs -e 'using Pkg; Pkg.instantiate(); Pkg.precompile();'"
 }
+
