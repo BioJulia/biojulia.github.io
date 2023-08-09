@@ -48,7 +48,7 @@ julia> using <name of package here>
     `(@v1.x) pkg> add...`. You do not need to manually change the version number indicated in the 
     prompt if you have a different Julia version than that which is listed, it is again handled for you.
 
-## Package development
+## [Package development](@id pkg-devel)
 
 If you are interested in developing a new or existing BioJulia/Julia package, the package manager can also
 help you by first cloning the package repository to your development machine. Pkg will then load the required 
