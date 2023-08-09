@@ -2,9 +2,10 @@
 
 - [Bioconductor](https://www.bioconductor.org/) represents an ecosystem of related genomics tools written in the R programming language
 - Tools written in other languages, such as C and Python, are also included with R wrappers available 
-- Initially released over two decades ago, it now hosts over 2000 packages for bioinformatics and related fields
+- Launched over two decades ago, it now hosts over 2000 packages for bioinformatics and related fields
 - Packages cover a broard range of methods for the analysis and manipulation of genomic data
 
+**A few equivalent applications between BioJulia and Bioconductor:**
 
 | Application         | BioJulia packages                                                                                                                                                                                            | Bioconductor packages                   |
 |:--------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------|
@@ -25,17 +26,15 @@
 | Numerical mathematics      | [LinearAlgebra](https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/), [IterativeSolvers](https://iterativesolvers.julialinearalgebra.org/dev/)                                   | `Matrix`, `pracma`, `deSolve`          |
 | Web applications           | [Genie](https://genieframework.com/), [Franklin](https://franklinjl.org/)                                                                                                           | `shiny`                                |
 
-
 **A few notable differences between Julia and R:**
 
 | Julia                                                                  | R                                                                                |
 |:-----------------------------------------------------------------------|:---------------------------------------------------------------------------------|
 | High-level, general-purpose compiled language                          | High-level, interpreted language for statistical computing                       |
 | Dynamically typed with multiple dispatch and optional type annotations | Dynamically typed without type annotations support                               |
-| Built-in parallelism via threads, coroutines (Tasks)                   | Parallelism via external libraries (BLAS, parallel,...)                          |
+| Built-in parallelism via threads, coroutines (Tasks)                   | Parallelism via external libraries (BLAS, `parallel`,...)                          |
 | Extensive metaprogramming (Lisp-like macros, generated functions,...)  | Less extensive metaprogramming (function factories, expression manipulation,...) |
 | Single implementation available (JuliaLang)                            | Multiple implementations available (pqR, Renjin,...)                             |
-
 
 **To transition from R to Julia:**
 - See [Noteworthy differences from R](https://docs.julialang.org/en/v1/manual/noteworthy-differences/#Noteworthy-differences-from-R) in the Julia manual for a more in-depth comparison

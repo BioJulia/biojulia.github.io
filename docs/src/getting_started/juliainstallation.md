@@ -3,7 +3,7 @@
 There are a number of methods available to install Julia that each have their own advantages:
 
 !!! note
-    Unix users: It is NOT recommended to install Julia from your distribution's package manager, as no such installation 
+    It is NOT recommended to install Julia from your distribution's package manager, as no such installation 
     is officially endorsed by the Julia project and thus may be out-of-date and broken/unmaintained!
 
 ## juliaup (recommended)
@@ -12,20 +12,20 @@ There are a number of methods available to install Julia that each have their ow
 installation from the command-line. 
 It is the easiest and most convenient installation option, and is available on almost all platforms that support Julia.
 
-- If you are running Linux or Mac, enter the following command in your terminal:
+- If you are running **Linux or Mac**, enter the following command in your terminal:
 ```
 curl -fsSL https://install.julialang.org | sh
 ```  
 
-- If you are running Windows, enter the following:
+- If you are running **Windows**, enter the following:
 ```
 winget install julia -s msstore
 ```
 
-- If you have the Rust programming language installed on your machine, you can install `juliaup` via the Cargo package manager:
+- If you have the **Rust** programming language installed on your machine, you can install `juliaup` via the Cargo package manager:
 
 !!! warning
-    This is not a recommended option as this will involve compiling the actual `juliaup` executable on your local machine
+    This is not a recommended option as this will involve compiling the actual `juliaup` executable on your machine
 
 ```
 cargo install juliaup
@@ -105,4 +105,4 @@ Make sure to follow the exact installation steps for your machine in order to en
 
 For building/testing purposes, you may build Julia from the source code that is fully available in the [Julia GitHub repository](https://github.com/JuliaLang/julia.git).
 Simply enter `git clone https://github.com/JuliaLang/julia.git` to copy the entire source on your machine, create a new git branch via `git checkout -b name-of-branch`,
-add your modifications, and run `make` to begin the Makefile build system.
+add your modifications, and run `make` to start the Makefile build.

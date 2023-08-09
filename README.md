@@ -15,6 +15,14 @@ similar to [SciMLDocs](https://github.com/SciML/SciMLDocs) (see the production p
 
 The rendered BioJuliaDocs site, for testing purposes, is published online using GitHub Pages at [biojulia.dev/BioJuliaDocs](https://biojulia.dev/BioJuliaDocs). A GitHub action rebuilds the site on every successful pull request.
 
+To deploy the site locally:
+```julia
+# Make sure you are within or are pointing to the the docs/ folder
+using Documenter, LiveServer
+include("make.jl")
+serve(dir="build")
+```
+
 ## Contributing
 
 We appreciate contributions from users/members of the BioJulia commmunity

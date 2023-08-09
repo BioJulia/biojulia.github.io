@@ -1,9 +1,11 @@
 # [Biopython (Python3)](@id biopython)
 
 - [Biopython](https://biopython.org/) represents an ecosystem of related biology tools written in the Python3 programming language
-- Unlike in BioJulia, Biopython tools are installed together as modules into a single `biopython` package 
-- Initially released over two decades ago with major releases covering the Python2/3 transition
+- Unlike with BioJulia, Biopython tools are installed together as modules into a single `biopython` package 
+- Launched over two decades ago with major releases covering the Python2/3 transition
 - Capabilities cover a number of molecular biology applications including sequence alignment, population genetics, and machine learning
+
+**A few equivalent application tools between BioJulia and Biopython:**
 
 | Application         | BioJulia packages                                                                                                                             | Biopython objects/modules  |
 |:--------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------|
@@ -24,19 +26,18 @@
 | Notebook/report generator  | [IJulia](https://julialang.github.io/IJulia.jl/stable/), [Pluto](https://plutojl.org/), [Weave](https://weavejl.mpastell.com/stable/)                                               | `IPython`, `Jupyter Book`                             |
 | Web applications           | [Genie](https://genieframework.com/), [Franklin](https://franklinjl.org/)                                                                                                           | `Django`, `Flask`, `Pelican`, `Dash`                  |
 
-
 **A few notable differences between Julia and Python3:**
 
-| Julia                                                                  | Python3                                                                  |
-|:-----------------------------------------------------------------------|:-------------------------------------------------------------------------|
-| High-level, general-purpose compiled language                          | High-level, general-purpose interpreted language                         |
-| Expression-based (statements yield a value)                            | Statement-based (assignment as a statement)                              |
-| Dynamically typed with multiple dispatch and optional type annotations | Dynamically typed with optional type annotations                         |
-| Built-in parallelism via threads, coroutines (Tasks)                   | Limited (GIL) parallelism via threads, async/await                       |
-| Extensive metaprogramming (Lisp-like macros, homoiconicity,...)        | Less extensive metaprogramming (decorators, metaclasses,...)             |
-| Included default package manager                                       | No default package manager (poetry, conda, other alternatives available) |
-| Single implementation available (JuliaLang)                            | Multiple implementations available (PyPy, Numba,...)                     |
-| Arrays are column-major (columns are contiguous in memory)             | (Numpy) arrays are row-major by default (rows are contiguous in memory)  |
+| Julia                                                                  | Python3                                                                      |
+|:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------|
+| High-level, general-purpose compiled language                          | High-level, general-purpose interpreted language                             |
+| Expression-based (statements yield a value)                            | Statement-based (assignment as a statement)                                  |
+| Dynamically typed with multiple dispatch and optional type annotations | Dynamically typed with optional type annotations                             |
+| Built-in parallelism via threads, coroutines (Tasks)                   | Limited (GIL) built-in parallelism via threads, async/await                  |
+| Extensive metaprogramming (Lisp-like macros, homoiconicity,...)        | Less extensive metaprogramming (decorators, metaclasses,...)                 |
+| Included default package manager                                       | No default package manager (poetry, conda, and other alternatives available) |
+| Single implementation available (JuliaLang)                            | Multiple implementations available (PyPy, Numba,...)                         |
+| Arrays are column-major (columns are contiguous in memory)             | (Numpy) arrays are row-major by default (rows are contiguous in memory)      |
 
 **To transition from Python3 to Julia:**
 - See [Noteworthy differences from Python](https://docs.julialang.org/en/v1/manual/noteworthy-differences/#Noteworthy-differences-from-Python) in the Julia manual for a more in-depth comparison
