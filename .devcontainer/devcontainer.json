@@ -13,6 +13,6 @@
             ]
         }
     },
-    "onCreateCommand": "julia --project=docs -e 'using Pkg; Pkg.instantiate(); Pkg.precompile();'"
+    "onCreateCommand": "julia --project=docs/Project.toml -e 'using Pkg; Pkg.instantiate(); Pkg.precompile();'"
 }
 
