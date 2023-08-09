@@ -25,6 +25,7 @@ We won't go into every feature that the REPL provides, however here is a quick l
 know to make the most of this shell:
 
 - There are 5 Julia REPL modes that serve separate purposes: 
+
   1. The Julian (default) mode wherein one can write, load, and test out code
   2. Help mode for printing documentation for functions, keywords, etc.
   3. Pkg mode for working with the included package manager and manipulating dependencies/packages
@@ -45,6 +46,7 @@ know to make the most of this shell:
   finished!
 - You can get a list of matches to a partially written word by entering the TAB key, which also serves to render an
   Unicode symbol in the REPL (full list available in the [Unicode Input](https://docs.julialang.org/en/v1/manual/unicode-input/) section of the Julia manual): 
+  
   ```julia
   julia> pri[TAB]
   primitive type  print           println         printstyled
@@ -54,7 +56,7 @@ know to make the most of this shell:
   equivalent of Python3's `if __name__ == __main__` condition would be `if abspath(<name of program file>) == @__FILE__`
 
 !!! warning
-    One common footgun with the Julia REPL is that there are currently certain code changes that cannot be performed without 
+    One common gotcha with the Julia REPL is that there are currently certain code changes that cannot be performed without 
     restarting your session, such as redefining structs (see the example below). You can mitigate this by adding the 
     [Revise](https://timholy.github.io/Revise.jl/stable/) package, although restarting the session is the simplest option.
     ```julia
@@ -79,6 +81,7 @@ To learn more, see the [The Julia REPL](https://docs.julialang.org/en/v1/stdlib/
 
 The Julia organization officially maintains the [Julia vscode extension](https://www.julia-vscode.org/), which provides
 a complete IDE solution for developing in Julia. This boasts a number of advantages compared to a REPL solution:
+
 - Built-in syntax highlighting and code completion
 - GUI interaction for managing options and commands
 - Advanced profiling/debugging features 
@@ -92,9 +95,9 @@ Quick Open input panel by pressing `Ctrl + P` and entering `ext install julialan
 <!-- TODO: Move image to assets directory -->
 ![Julia VSCode Extension](JuliaVSCodeExtension.png)
 
-
 Install the extension and restart vscode. We also recommend installing some additional extensions that will further improve
 the development experience:
+
 - [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml) 
   (`ext install tamasfe.even-better-toml`) for working with the package TOML 
   files (Project.toml, Manifest.toml, Artifacts.toml,...)
