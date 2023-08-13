@@ -8,6 +8,14 @@ All you need to know is the name of the package of interest!
 
 There are two standard methods to install a package:
 
+!!! note
+    The Julia package manager, similarly to conda and others, organizes dependencies according to the "environment" 
+    they are in, meaning in which directory the packages are installed to. The default Julia session adds packages 
+    to a "global" environment, usually the .julia/environments/v1.x directory. When you are developing a package, 
+    you must activate its project-specific environment by calling `activate MyProjectName` (see [Package development](@ref pkg-devel) 
+    below) so that you can isolate your dependencies from the global environment and manage them independently. See 
+    [Working with Environment](https://pkgdocs.julialang.org/v1/environments/) for more details.
+
 1. **The package manager (Pkg) module**
 
 ```julia
@@ -30,7 +38,7 @@ using <name of package here>
 ]
 # @v1.x will show your current Julia version
 (@v1.9) pkg> add <name of package here>
-# Exit REPL via the Backspace key
+# Exit Pkg REPL mode via the Backspace key
 julia> using <name of package here>
 ```
 
@@ -40,7 +48,7 @@ julia> using <name of package here>
     `(@v1.x) pkg> add...`. You do not need to manually change the version number indicated in the 
     prompt if you have a different Julia version than that which is listed, it is again handled for you.
 
-## Package development
+## [Package development](@id pkg-devel)
 
 If you are interested in developing a new or existing BioJulia/Julia package, the package manager can also
 help you by first cloning the package repository to your development machine. Pkg will then load the required 
@@ -58,7 +66,7 @@ julia> Pkg.develop("<name of package here>");
 using <name of package here>
 ```
 
-1. **Pkg mode**
+2. **Pkg mode**
 
 ```julia
 # Enter ]
@@ -83,3 +91,4 @@ julia> using <name of package here>
 You can now change your source code and load them into the Julia session with `using <name of package here>`.
 To test your code, run `(@v1.9) pkg> test` to run the package's test suite to ensure that everything works
 correctly. When you are done developing the package, enter `(@v1.9) pkg> free` to stop tracking the package. 
+
