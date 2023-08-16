@@ -14,15 +14,15 @@
 
 **A few package/ecosystem equivalents between Julia and Python3:**
 
-| Application                | Julia                                                                                                                                                                               | Python3                                               |
-|:---------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
-| Data manipulation/analysis | [DataFrames](https://dataframes.juliadata.org/stable/), [CSV](https://csv.juliadata.org/stable/), [Query](https://www.queryverse.org/Query.jl/stable/)                              | `pandas`, `Blaze`                                     |
-| Plotting/visualization     | [Plots](https://docs.juliaplots.org/stable/), [Gadfly](http://gadflyjl.org/stable/), [Makie](https://docs.makie.org/stable/)                                                        | `matplotlib`, `seaborn`, `bokeh`, `plotnine`, `VisPy` |
-| Statistical analysis       | [Statistics](https://docs.julialang.org/en/v1/stdlib/Statistics/), [HypothesisTests](https://github.com/JuliaStats/HypothesisTests.jl), [GLM](https://github.com/JuliaStats/GLM.jl) | `SciPy`, `statsmodels`                                |
-| Machine learning           | [Flux](https://fluxml.ai/Flux.jl/stable/), [SciML](https://sciml.ai/), [Zygote](https://fluxml.ai/Zygote.jl/stable/)                                                                | `PyTorch`, `TensorFlow`, `scikit-learn`, `JAX`        |
-| Numerical mathematics      | [LinearAlgebra](https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/), [Symbolics](https://symbolics.juliasymbolics.org/stable/)                                                  | `NumPy`, `SciPy`, `SymPy`                             |
-| Notebook/report generator  | [IJulia](https://julialang.github.io/IJulia.jl/stable/), [Pluto](https://plutojl.org/), [Weave](https://weavejl.mpastell.com/stable/)                                               | `IPython`, `Jupyter Book`                             |
-| Web applications           | [Genie](https://genieframework.com/), [Franklin](https://franklinjl.org/)                                                                                                           | `Django`, `Flask`, `Pelican`, `Dash`                  |
+| Application                | Julia                                                                                                                                                                                    | Python3                                               |
+|:---------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
+| Data manipulation/analysis | [DataFrames](https://dataframes.juliadata.org/stable/), [CSV](https://csv.juliadata.org/stable/), [Query](https://www.queryverse.org/Query.jl/stable/)                                   | `pandas`, `Blaze`                                     |
+| Plotting/visualization     | [Plots](https://docs.juliaplots.org/stable/), [Gadfly](http://gadflyjl.org/stable/), [Makie](https://docs.makie.org/stable/), [TidierPlots](https://github.com/TidierOrg/TidierPlots.jl) | `matplotlib`, `seaborn`, `bokeh`, `plotnine`, `VisPy` |
+| Statistical analysis       | [Statistics](https://docs.julialang.org/en/v1/stdlib/Statistics/), [HypothesisTests](https://github.com/JuliaStats/HypothesisTests.jl), [GLM](https://github.com/JuliaStats/GLM.jl)      | `SciPy`, `statsmodels`                                |
+| Machine learning           | [Flux](https://fluxml.ai/Flux.jl/stable/), [SciML](https://sciml.ai/),  [MLJ](https://alan-turing-institute.github.io/MLJ.jl/stable/), [Zygote](https://fluxml.ai/Zygote.jl/stable/)     | `PyTorch`, `TensorFlow`, `scikit-learn`, `JAX`        |
+| Numerical mathematics      | [LinearAlgebra](https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/), [Symbolics](https://symbolics.juliasymbolics.org/stable/)                                                       | `NumPy`, `SciPy`, `SymPy`                             |
+| Notebook/report generator  | [IJulia](https://julialang.github.io/IJulia.jl/stable/), [Pluto](https://plutojl.org/), [Weave](https://weavejl.mpastell.com/stable/)                                                    | `IPython`, `Jupyter Book`                             |
+| Web applications           | [Genie](https://genieframework.com/), [Franklin](https://franklinjl.org/)                                                                                                                | `Django`, `Flask`, `Pelican`, `Dash`                  |
 
 **A few notable differences between Julia and Python3:**
 
@@ -39,6 +39,6 @@
 
 **To transition from Python3 to Julia:**
 - See [Noteworthy differences from Python](https://docs.julialang.org/en/v1/manual/noteworthy-differences/#Noteworthy-differences-from-Python) in the Julia manual for a more in-depth comparison
-- Use [PythonCall.jl](https://github.com/cjdoris/PythonCall.jl.git)/[CondaPkg.jl](CondaPkg.jl) to seamlessly integrate Python3 code into your Julia project
+- Use [PythonCall.jl](https://github.com/cjdoris/PythonCall.jl.git)/[CondaPkg.jl](https://github.com/JuliaPy/CondaPkg.jl.git) to seamlessly integrate Python3 code into your Julia project
 - Use [juliacall](https://pypi.org/project/juliacall/) to seamlessly integrate Julia code into your Python3 project
 
