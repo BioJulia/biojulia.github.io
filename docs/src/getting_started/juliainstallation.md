@@ -50,7 +50,7 @@ docker pull julia:latest
 
 You can specify which version of the image you wish to install via tags, such as `latest`, `rc`, `1.6`, etc.
 
-To create a run the container instance, run the following command:
+To create a container instance, run the following command:
 
 !!! note
     You may skip the previous step if you have not already downloaded the image, Docker/Podman will automatically begin installing it for 

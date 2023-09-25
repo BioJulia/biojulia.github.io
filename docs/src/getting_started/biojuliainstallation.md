@@ -16,22 +16,21 @@ There are two standard methods to install a package:
     below) so that you can isolate your dependencies from the global environment and manage them independently. See 
     [Working with Environment](https://pkgdocs.julialang.org/v1/environments/) for more details.
 
-1. **The package manager (Pkg) module**
+- **The package manager (Pkg) module**
 
 ```julia
-# You can exclude the semicolon, it is used here for suppressing output 
-using Pkg;
+julia> using Pkg
 # Install the package
-julia> Pkg.add("<name of package here>");
+julia> Pkg.add("<name of package here>")
 # Use the installed package
-using <name of package here>
+julia> using <name of package here>
 ```
 
 !!! note
     One excellent trick is that any Julia code with the `julia>` prompt included at the beginning of the
     line can be copy/pasted as is into the REPL! See the [Julia REPL](@ref julia-repl) section for more.
 
-2. **Pkg mode**
+- **Pkg mode**
 
 ```julia
 # Enter ]
@@ -46,7 +45,7 @@ julia> using <name of package here>
     Just like with the previous method, you can copy/paste code with the `(@v1.x) pkg>` prompt included
     and Julia will work correctly! You can even skip having to enter Pkg mode by just entering directly
     `(@v1.x) pkg> add...`. You do not need to manually change the version number indicated in the 
-    prompt if you have a different Julia version than that which is listed, it is again handled for you.
+    prompt if you have a different Julia version than that which is listed, it is all handled for you.
 
 ## [Package development](@id pkg-devel)
 
@@ -58,15 +57,15 @@ can be submitted.
 
 There are two standard methods to set up Julia for developing a package:
 
-1. **The package manager (Pkg) module**   
+- **The package manager (Pkg) module**   
    
 ```julia
-using Pkg;
-julia> Pkg.develop("<name of package here>");
-using <name of package here>
+julia> using Pkg
+julia> Pkg.develop("<name of package here>")
+julia> using <name of package here>
 ```
 
-2. **Pkg mode**
+- **Pkg mode**
 
 ```julia
 # Enter ]
@@ -85,7 +84,7 @@ julia> using <name of package here>
 ```
 
 !!! note
-    You can skip straight to `(@v1.9) pkg> activate ...` if you have already installed the package code locally,
+    You can skip straight to `(@v1.9) pkg> activate ...` if you have already installed the package locally,
     simply make sure to point Pkg to the right path as shown above.
 
 You can now change your source code and load them into the Julia session with `using <name of package here>`.
