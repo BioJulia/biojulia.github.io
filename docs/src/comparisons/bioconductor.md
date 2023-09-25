@@ -17,14 +17,14 @@
 
 **A few package/ecosystem equivalents between Julia and R:**
 
-| Application                | Julia                                                                                                                                                                               | R                                      |
-|:---------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------|
-| Data manipulation/analysis | [DataFrames](https://dataframes.juliadata.org/stable/), [CSV](https://csv.juliadata.org/stable/), [Query](https://www.queryverse.org/Query.jl/stable/)                              | `tibble`, `dplyr`                      |
-| Plotting/visualization     | [Gadfly](http://gadflyjl.org/stable/), [VegaLite](https://www.queryverse.org/VegaLite.jl/stable/), [Makie](https://docs.makie.org/stable/)                                          | `ggplot2`, `vegalite`, `plotly`        |
-| Statistical analysis       | [Statistics](https://docs.julialang.org/en/v1/stdlib/Statistics/), [HypothesisTests](https://github.com/JuliaStats/HypothesisTests.jl), [GLM](https://github.com/JuliaStats/GLM.jl) | `stats`                                |
-| Machine learning           | [Flux](https://fluxml.ai/Flux.jl/stable/), [SciML](https://sciml.ai/), [Zygote](https://fluxml.ai/Zygote.jl/stable/)                                                                | `mlr3`, `caret`, `tidymodels`, `Deriv` |
-| Numerical mathematics      | [LinearAlgebra](https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/), [IterativeSolvers](https://iterativesolvers.julialinearalgebra.org/dev/)                                   | `Matrix`, `pracma`, `deSolve`          |
-| Web applications           | [Genie](https://genieframework.com/), [Franklin](https://franklinjl.org/)                                                                                                           | `shiny`                                |
+| Application                | Julia                                                                                                                                                                                                        | R                                      |
+|:---------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------|
+| Data manipulation/analysis | [DataFrames](https://dataframes.juliadata.org/stable/), [CSV](https://csv.juliadata.org/stable/), [Query](https://www.queryverse.org/Query.jl/stable/), [Tidier](https://tidierorg.github.io/Tidier.jl/dev/) | `tibble`, `dplyr`, `tidyverse`         |
+| Plotting/visualization     | [Gadfly](http://gadflyjl.org/stable/), [VegaLite](https://www.queryverse.org/VegaLite.jl/stable/), [Makie](https://docs.makie.org/stable/), [TidierPlots](https://github.com/TidierOrg/TidierPlots.jl)       | `ggplot2`, `vegalite`, `plotly`        |
+| Statistical analysis       | [Statistics](https://docs.julialang.org/en/v1/stdlib/Statistics/), [HypothesisTests](https://github.com/JuliaStats/HypothesisTests.jl), [GLM](https://github.com/JuliaStats/GLM.jl)                          | `stats`                                |
+| Machine learning           | [Flux](https://fluxml.ai/Flux.jl/stable/), [SciML](https://sciml.ai/), [MLJ](https://alan-turing-institute.github.io/MLJ.jl/stable/), [Zygote](https://fluxml.ai/Zygote.jl/stable/)                          | `mlr3`, `caret`, `tidymodels`, `Deriv` |
+| Numerical mathematics      | [LinearAlgebra](https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/), [IterativeSolvers](https://iterativesolvers.julialinearalgebra.org/dev/)                                                            | `Matrix`, `pracma`, `deSolve`          |
+| Web applications           | [Genie](https://genieframework.com/), [Franklin](https://franklinjl.org/)                                                                                                                                    | `shiny`                                |
 
 **A few notable differences between Julia and R:**
 
@@ -32,7 +32,7 @@
 |:-----------------------------------------------------------------------|:---------------------------------------------------------------------------------|
 | High-level, general-purpose compiled language                          | High-level, interpreted language for statistical computing                       |
 | Dynamically typed with multiple dispatch and optional type annotations | Dynamically typed without type annotations support                               |
-| Built-in parallelism via threads, coroutines (Tasks)                   | Parallelism via external libraries (BLAS, `parallel`,...)                          |
+| Built-in parallelism via threads, coroutines (Tasks)                   | Parallelism via external libraries (BLAS, `parallel`,...)                        |
 | Extensive metaprogramming (Lisp-like macros, generated functions,...)  | Less extensive metaprogramming (function factories, expression manipulation,...) |
 | Single implementation available (JuliaLang)                            | Multiple implementations available (pqR, Renjin,...)                             |
 
@@ -40,4 +40,4 @@
 - See [Noteworthy differences from R](https://docs.julialang.org/en/v1/manual/noteworthy-differences/#Noteworthy-differences-from-R) in the Julia manual for a more in-depth comparison
 - Use [RCall.jl](https://github.com/JuliaInterop/RCall.jl.git) to seamlessly integrate R code into your Julia project
 - Use [JuliaCall](https://cran.r-project.org/web/packages/JuliaCall/readme/README.html) to seamlessly integrate Julia code into your R project
-
+- Check out the [Tidier.jl ecosystem](https://tidierorg.github.io/Tidier.jl/dev/) for packages similar to those commonly found in `tidyverse`

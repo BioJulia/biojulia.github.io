@@ -1,4 +1,4 @@
-# BioJulia: Fast, open, easy, software for biology
+# BioJulia: Fast, open, easy software for biology
 
 > Note: This landing site is under extensive development and will receive frequent updates. 
 > It is not in a ready state, and is published under GitHub Pages only for testing purposes. 
@@ -8,7 +8,7 @@ in the [Julia programming language](https://julialang.org/). The organization of
 fully open-source ecosystem of both libraries that serve as essential building blocks for other packages 
 as well as interactive tools for everyday tasks and workflows. 
 
-Biologists are fully empowered by Julia to easily tackle domain-specific challenges, taking advantage of features including:
+Biologists and other scientists are fully empowered by Julia to easily tackle domain-specific challenges, taking advantage of features including:
 - [Fully reproducible environments](https://pkgdocs.julialang.org/v1/environments/) thanks to Julia's built-in package manager
 - [Competitive performance](https://julialang.org/benchmarks/) that rivals that of lower-level, more complex languages such as C and Fortran
 - [Unicode-based math symbol support](https://docs.julialang.org/en/v1/manual/unicode-input/), [transparent BLAS integration](https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/#man-linalg), and additional features for performing complex numerical operations   
@@ -22,7 +22,7 @@ Biologists are fully empowered by Julia to easily tackle domain-specific challen
   - Deep dive into the ecosystem over at the [Overview]().
   - Start learning right away using the [Getting Started tutorials]().
   - See some awesome examples in the [BioJulia Showcase]().
-  - Compare performance with the [BioJulia Open Benchmarks]().
+ <!-- - Compare performance with the [BioJulia Open Benchmarks](). -->
   - Come chat with us over in the [Slack](https://julialang.org/slack/) #biology workspace and on [forums](https://discourse.julialang.org/).
 
 Use the top navigation bar to search for provided packages within one's field of interest.
