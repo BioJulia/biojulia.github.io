@@ -1,13 +1,57 @@
 # [Case Scenarios](@id casescenarios)
 
 !!! note
-    These scenarios are based on practical workflows from fellow members of the BioJulia/Julia community!
+    These scenarios are based on practical workflows and real stories from fellow members of the BioJulia/Julia community!
 
 ## Industry 
 
+!!! tip 
+    Visit [JuliaHub](https://juliahub.com/case-studies/) for real-world case studies of Julia in multiple areas of industry!
+
 ## App/Web Development
 
+An analytics firm is interested in developing a new framework for creating interactive dashboards, the idea being that each
+client can receive a real-time, custom view of their customer or product data.
+
 ## Research
+
+!!! tip
+    Visit [The Journal of Open Source Software](https://joss.theoj.org/) and [JuliaCon Proceedings](https://proceedings.juliacon.org/) to explore several research packages written in Julia!
+
+A freshly minted researcher begins the morning with a new directive from the principal investigator. Their lab specializes in 
+translational cancer immunotherapy, and as of late have been exploring a potential avenue for T-cell activation in patients with
+with a rare type of lymphoma. It is hoped that strengthening the expression of specific peptides involved in cellular adaptive immune 
+response can lead to more effective treatment of this specific cancer. One patient's blood has been sampled and delivered to the lab, 
+with the goal of extacting and combing through the resulting expression data from various antigen-presenting cells (APCs) to identify abnormal 
+peptide expression levels.
+
+The researcher understands that the exploratory nature of this project will require an interactive environment from which results can be 
+rapidly generated and saved/discarded when need be. Previously, a number of challenges would get in the way of this workflow:
+
+- Working with interactive languages had proven to be a hassle due to issues like competing build systems and environments
+- The REPL experience was often lacking due to missing features or lack of integrations with other tools like a package manager
+- Notebooks, while good for experimenting, can come with their own problems such as slow speeds and difficulties with deployment and versioning
+- Writing high-performing software would require lower-level languages like C or Fortran, which would prove difficult for scientists without a computer science background
+
+They remember previously experimenting with Julia while before it was stable, and decide to give it a second go. Installation proved to be very simple with the 
+[juliaup](https://github.com/JuliaLang/juliaup#installation) tool, and they proceed to read up on the basics from the [Julia manual](https://docs.julialang.org/en/v1/).
+The first step, upon loading the Julia REPL, is to add the [DrWatson](https://juliadynamics.github.io/DrWatson.jl/stable/) package to better track 
+the project. With DrWatson and the built-in package manager, the researcher can geneate reproducible code for simulations, plotting, and 
+data preparation.
+
+At the same time, the researcher isolates the APCs via a microfluidic cell-sorting device. The patient's cells are encapsulated into individual 
+droplets from which single-cell profiling can occur via Droplet-Sequencing (Drop-seq). The resulting data is stored in [.h5 files](https://www.wikiwand.com/en/Hierarchical_Data_Format) on the lab's shared drive. The researcher generates an `Artifacts.toml` file that utilizes Julia's built-in package manager to point 
+to these files in a persistent and reproducible manner every time when the project needs to be shared with others on their own machines. The researcher makes 
+quick work of loading the data into Julia with the [HDF5](https://juliaio.github.io/HDF5.jl/stable/) package, and applies a number of steps with 
+[DataFrames](https://dataframes.juliadata.org/stable/), [TidierData](https://tidierorg.github.io/TidierData.jl/latest/), and [Chain](https://github.com/jkrumbiegel/Chain.jl) 
+to transform, normalize, and filter the data. Finally, principle component analysis (PCA) with [SingleCellProjections](https://biojulia.dev/SingleCellProjections.jl/stable/) 
+is conducted, visualized with a plotting package such as [Makie](https://makie.org/) or [PlotlyJS](http://juliaplots.org/PlotlyJS.jl/stable/).
+
+The whole project is saved by DrWatson and shared with the P.I. for further discussion. PCA analysis leads them to focus on a narrow subset of 
+APCs with elevated peptide expression levels which will be followed up in subsequent studies. The researcher prepares a more digestible format of the results 
+as a [Pluto notebook](https://plutojl.org/) to share with colleagues the more pertinent observations, and finally a more formal research report is written with 
+[Weave](https://weavejl.mpastell.com/stable/). The lab is impressed with what was achieved with Julia, with many remarking how effortless it seemed to achieve 
+excellent performance with such a high-level language.
 
 ## Education
 
