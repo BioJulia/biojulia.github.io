@@ -1,8 +1,11 @@
 # [scikit-bio (Python3)](@id scikitbio)
 
-- [scikit-bio](http://scikit-bio.org/) represents a Python3 library providing data structures, algorithms, and additional bioinformatics resources
-- Unlike with BioJulia, scikit-bio tools are installed together as modules into a single `skbio` package 
-- Launched in 2014 based on a BSD-relicensing of PyCogent and QIIME code and is currently in beta/maintenance mode
+* [scikit-bio](http://scikit-bio.org/) represents a Python3 library providing
+  data structures, algorithms, and additional bioinformatics resources
+* Unlike with BioJulia, scikit-bio tools are installed together as modules into
+  a single `skbio` package 
+* Launched in 2014 based on a BSD-relicensing of PyCogent and QIIME code and is
+  currently in beta/maintenance mode
 
 **A few equivalent application tools between BioJulia and scikit-bio:**
 
@@ -38,7 +41,12 @@
 | Arrays are column-major (columns are contiguous in memory)             | (Numpy) arrays are row-major by default (rows are contiguous in memory)      |
 
 **To transition from Python3 to Julia:**
-- See [Noteworthy differences from Python](https://docs.julialang.org/en/v1/manual/noteworthy-differences/#Noteworthy-differences-from-Python) in the Julia manual for a more in-depth comparison
-- Use [PythonCall.jl](https://github.com/cjdoris/PythonCall.jl.git)/[CondaPkg.jl](https://github.com/JuliaPy/CondaPkg.jl.git) to seamlessly integrate Python3 code into your Julia project
-- Use [juliacall](https://pypi.org/project/juliacall/) to seamlessly integrate Julia code into your Python3 project
+* See [Noteworthy differences from
+  Python](https://docs.julialang.org/en/v1/manual/noteworthy-differences/#Noteworthy-differences-from-Python)
+  in the Julia manual for a more in-depth comparison
+* Use
+  [PythonCall.jl](https://github.com/cjdoris/PythonCall.jl.git)/[CondaPkg.jl](https://github.com/JuliaPy/CondaPkg.jl.git)
+  to seamlessly integrate Python3 code into your Julia project
+* Use [juliacall](https://pypi.org/project/juliacall/) to seamlessly integrate
+  Julia code into your Python3 project
 

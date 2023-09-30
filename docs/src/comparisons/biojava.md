@@ -1,8 +1,10 @@
 # [BioJava (Java)](@id biojava)
 
-- [BioJava](https://biojava.org/index.html) is a biological data processing library written in the Java programming language
-- BioJava tooling is distributed via multiple classes within the same `org.biojava` package
-- Launched in 2002 with six major releases covering more than 11 Java releases
+* [BioJava](https://biojava.org/index.html) is a biological data processing
+  library written in the Java programming language
+* BioJava tooling is distributed via multiple classes within the same
+  `org.biojava` package
+* Launched in 2002 with six major releases covering more than 11 Java releases
 
 **A few equivalent applications between BioJulia and BioJava:**
 
@@ -37,6 +39,9 @@
 | Single implementation available (JuliaLang)                            | Multiple implementations available (OpenJDK, GraalVM,...)                                |
 
 **To transition from Java to Julia:**
-- Use [JavaCall.jl](https://juliainterop.github.io/JavaCall.jl/) to seamlessly integrate Java code into your Julia project
-- See [Running External Programs](https://docs.julialang.org/en/v1/manual/running-external-programs/) in the Julia manual for running Java scripts or other programs from Julia
+* Use [JavaCall.jl](https://juliainterop.github.io/JavaCall.jl/) to seamlessly
+  integrate Java code into your Julia project
+* See [Running External
+  Programs](https://docs.julialang.org/en/v1/manual/running-external-programs/)
+  in the Julia manual for running Java scripts or other programs from Julia
 

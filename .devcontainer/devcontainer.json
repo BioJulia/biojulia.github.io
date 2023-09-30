@@ -9,7 +9,8 @@
             "extensions": [
                 "julialang.language-julia",
                 "tamasfe.even-better-toml",
-                "eamodio.gitlens"
+                "eamodio.gitlens",
+                "stkb.rewrap",
             ]
         }
     },

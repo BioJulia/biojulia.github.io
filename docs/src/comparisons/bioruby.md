@@ -1,9 +1,12 @@
 # [BioRuby (Ruby)](@id bioruby)
 
-- [BioRuby](http://bioruby.org/) represents an ecosystem of related biology tools written in the Ruby programming language
-- Unlike with BioJulia, BioRuby tools are installed together as classes/modules into a single `bio` gem
-- Launched in 2000 with two major releases covering the Ruby1/2/3 transitions
-- Primarily composed of wrapper classes/modules for common bioinformatics, molecular biology applications 
+* [BioRuby](http://bioruby.org/) represents an ecosystem of related biology
+  tools written in the Ruby programming language
+* Unlike with BioJulia, BioRuby tools are installed together as classes/modules
+  into a single `bio` gem
+* Launched in 2000 with two major releases covering the Ruby1/2/3 transitions
+* Primarily composed of wrapper classes/modules for common bioinformatics,
+  molecular biology applications 
 
 **A few equivalent application tools between BioJulia and BioRuby:**
 
@@ -35,6 +38,9 @@
 | Single implementation available (JuliaLang)                            | Multiple implementations available (TruffleRuby, mruby,...)                    |
 
 **To transition from Ruby to Julia:**
-- Read the [Julia manual](https://docs.julialang.org/) for an in-depth look at its internals and features
-- See [Running External Programs](https://docs.julialang.org/en/v1/manual/running-external-programs/) in the manual for running Ruby scripts or other programs from Julia
+* Read the [Julia manual](https://docs.julialang.org/) for an in-depth look at
+  its internals and features
+* See [Running External
+  Programs](https://docs.julialang.org/en/v1/manual/running-external-programs/)
+  in the manual for running Ruby scripts or other programs from Julia
 
