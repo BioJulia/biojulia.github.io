@@ -3,7 +3,7 @@ title = "BioJulia.dev"
 tags = ["syntax", "code"]
 +++
 
-![Biojulia Logo](/assets/biojulia-logo-light-svgomg.png)
+![BioJulia Logo](/assets/biojulia-logo-light-svgomg.svg)
 
 Fast, open, easy, software for biology
 
