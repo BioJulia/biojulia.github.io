@@ -19,7 +19,7 @@ If you get stuck or need help, come and ask [the community](/#community).
 
 - JuliaLang docs for [Pkg - julia's package manager](https://pkgdocs.julialang.org/v1/) -
   and [using environments](https://pkgdocs.julialang.org/v1/environments/)
-- [BioJulia tutorials](https://biojulia.dev/BioTutorials)
+- [BioJulia tutorials](https://github.com/BioJulia/BioTutorials)
 - [BioJulia docs](https://biojulia.dev/BioJuliaDocs)
 
 ~~~
