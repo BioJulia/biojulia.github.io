@@ -2,6 +2,15 @@
 
 <!-- TODO Use fancy list_post function -->
 
+
+~~~<h2><a href="./cajun-kevin">~~~ Biology at CAJUN ~~~</a></h2>~~~
+
+Kevin is presenting at the Cambridge Area Julia Users Network
+
+[Kevin Bonham](/authors/kevinbonham/)
+
+Apr 21, 2024 2 min read
+
 ~~~<h2><a href="./automa1">~~~ Tutorial to Automa: Part 1 ~~~</a></h2>~~~
 
 Find this notebook at https://github.com/jakobnissen/automa\_tutorial In bioinformatics, we have a saying: The first step of any ...
