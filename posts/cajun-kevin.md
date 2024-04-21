@@ -5,6 +5,8 @@ title = "BioJulia at CAJUN"
 author = "Kevin Bonham"
 +++
 
+# BioJulia at Cajun
+
 This Tuesday, I (Kevin) will be giving a talk for
 the [Cambridge Area Julia Users Network][cajun]
 on "Doing Biology in Julia".
