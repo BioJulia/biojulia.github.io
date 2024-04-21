@@ -646,7 +646,10 @@ end;</code></pre>
 <pre><code class="julia">parsedata();
 @time parsedata();</code></pre>
 <pre><code class="julia">0.162113 seconds (150.04 k allocations: 133.520 MiB, 7.90% gc time)</code></pre>
-<div class="code-output"><pre><code class="code-stderr language-plaintext">ERROR: syntax: extra token &quot;seconds&quot; after end of expression
+<div class="code-output"><pre><code class="code-stderr language-plaintext">ERROR: ParseError:
+# Error @ string:1:9
+0.162113 seconds (150.04 k allocations: 133.520 MiB, 7.90% gc time)
+#       └─────────────────────────────────────────────────────────┘ ── extra tokens after end of expression
 Stacktrace:
 </code></pre></div><p>Okay, we're at slightly above 600 MB/s. Profiling confirms nearly all time is spent encoding the DNA sequences to <code>LongSequence</code>. We can make it faster still by not storing the data as a <code>LongSequence</code>, and instead make it a "lazy" object that only constructs the sequence upon demand. Even further, we could avoid heap-allocating each sequence individually. But these optimizations do not pertain directly to Automa, and I will leave them here.</p>
 
