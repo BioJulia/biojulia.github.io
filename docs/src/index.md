@@ -9,7 +9,7 @@ hero:
   text: "Unified Docs"
   tagline: Doing biology with julia
   image:
-    src: '/assets/biojulia-logo1.png'
+    src: '/assets/logo.png'
   actions:
     - theme: brand
       text: Getting Started
