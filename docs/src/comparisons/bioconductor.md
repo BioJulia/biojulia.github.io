@@ -1,9 +1,13 @@
 # [Bioconductor (R)](@id bioconductor)
 
-- [Bioconductor](https://www.bioconductor.org/) represents an ecosystem of related genomics tools written in the R programming language
-- Tools written in other languages, such as C and Python, are also included with R wrappers available 
-- Launched over two decades ago, it now hosts over 2000 packages for bioinformatics and related fields
-- Packages cover a broard range of methods for the analysis and manipulation of genomic data
+* [Bioconductor](https://www.bioconductor.org/) represents an ecosystem of
+  related genomics tools written in the R programming language
+* Tools written in other languages, such as C and Python, are also included with
+  R wrappers available 
+* Launched over two decades ago, it now hosts over 2000 packages for
+  bioinformatics and related fields
+* Packages cover a broard range of methods for the analysis and manipulation of
+  genomic data
 
 **A few equivalent applications between BioJulia and Bioconductor:**
 
@@ -37,7 +41,15 @@
 | Single implementation available (JuliaLang)                            | Multiple implementations available (pqR, Renjin,...)                             |
 
 **To transition from R to Julia:**
-- See [Noteworthy differences from R](https://docs.julialang.org/en/v1/manual/noteworthy-differences/#Noteworthy-differences-from-R) in the Julia manual for a more in-depth comparison
-- Use [RCall.jl](https://github.com/JuliaInterop/RCall.jl.git) to seamlessly integrate R code into your Julia project
-- Use [JuliaCall](https://cran.r-project.org/web/packages/JuliaCall/readme/README.html) to seamlessly integrate Julia code into your R project
-- Check out the [Tidier.jl ecosystem](https://tidierorg.github.io/Tidier.jl/dev/) for packages similar to those commonly found in `tidyverse`
+* See [Noteworthy differences from
+  R](https://docs.julialang.org/en/v1/manual/noteworthy-differences/#Noteworthy-differences-from-R)
+  in the Julia manual for a more in-depth comparison
+* Use [RCall.jl](https://github.com/JuliaInterop/RCall.jl.git) to seamlessly
+  integrate R code into your Julia project
+* Use
+  [JuliaCall](https://cran.r-project.org/web/packages/JuliaCall/readme/README.html)
+  to seamlessly integrate Julia code into your R project
+* Check out the [Tidier.jl
+  ecosystem](https://tidierorg.github.io/Tidier.jl/dev/) for packages similar to
+  those commonly found in `tidyverse`
+

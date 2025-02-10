@@ -1,8 +1,11 @@
 # [BioPerl (Perl5)](@id bioperl)
 
-- [BioPerl](https://bioperl.org/) represents an ecosystem of related molecular biology modules written in the Perl5 programming language
-- Supported by the Open Bioinformatics Foundation and includes additional utilities and interfaces for common bioinformatics applications
-- Launched in 2002 and has contributed to major scientific achievements including the Human Genome Project
+* [BioPerl](https://bioperl.org/) represents an ecosystem of related molecular
+  biology modules written in the Perl5 programming language
+* Supported by the Open Bioinformatics Foundation and includes additional
+  utilities and interfaces for common bioinformatics applications
+* Launched in 2002 and has contributed to major scientific achievements
+  including the Human Genome Project
 
 **A few equivalent application tools between BioJulia and BioPerl:**
 
@@ -35,6 +38,9 @@
 | Single language implementation (JuliaLang)                             | Family of related languages/implementations (Perl5, Perl6/Raku, ActivePerl,...) |
 
 **To transition from Perl5 to Julia:**
-- Read the [Julia manual](https://docs.julialang.org/) for an in-depth look at its internals and features
-- See [Running External Programs](https://docs.julialang.org/en/v1/manual/running-external-programs/) in the manual for running Perl scripts or other programs from Julia
+* Read the [Julia manual](https://docs.julialang.org/) for an in-depth look at
+  its internals and features
+* See [Running External
+  Programs](https://docs.julialang.org/en/v1/manual/running-external-programs/)
+  in the manual for running Perl scripts or other programs from Julia
 

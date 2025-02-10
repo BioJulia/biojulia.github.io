@@ -28,7 +28,7 @@ makedocs(
             ],
         ],
         # Showcase of Cool Examples
-        "What is BioJulia" => ["overview.md",
+        "What is BioJulia?" => ["overview.md",
         ]
     ]
 )

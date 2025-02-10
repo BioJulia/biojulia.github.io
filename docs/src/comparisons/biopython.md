@@ -1,9 +1,13 @@
 # [Biopython (Python3)](@id biopython)
 
-- [Biopython](https://biopython.org/) represents an ecosystem of related biology tools written in the Python3 programming language
-- Unlike with BioJulia, Biopython tools are installed together as modules into a single `biopython` package 
-- Launched over two decades ago with major releases covering the Python2/3 transition
-- Capabilities cover a number of molecular biology applications including sequence alignment, population genetics, and machine learning
+* [Biopython](https://biopython.org/) represents an ecosystem of related biology
+  tools written in the Python3 programming language
+* Unlike with BioJulia, Biopython tools are installed together as modules into a
+  single `biopython` package 
+* Launched over two decades ago with major releases covering the Python2/3
+  transition
+* Capabilities cover a number of molecular biology applications including
+  sequence alignment, population genetics, and machine learning
 
 **A few equivalent application tools between BioJulia and Biopython:**
 
@@ -40,7 +44,12 @@
 | Arrays are column-major (columns are contiguous in memory)             | (Numpy) arrays are row-major by default (rows are contiguous in memory)      |
 
 **To transition from Python3 to Julia:**
-- See [Noteworthy differences from Python](https://docs.julialang.org/en/v1/manual/noteworthy-differences/#Noteworthy-differences-from-Python) in the Julia manual for a more in-depth comparison
-- Use [PythonCall.jl](https://github.com/cjdoris/PythonCall.jl.git)/[CondaPkg.jl](https://github.com/JuliaPy/CondaPkg.jl.git) to seamlessly integrate Python3 code into your Julia project
-- Use [juliacall](https://pypi.org/project/juliacall/) to seamlessly integrate Julia code into your Python3 project
+* See [Noteworthy differences from
+  Python](https://docs.julialang.org/en/v1/manual/noteworthy-differences/#Noteworthy-differences-from-Python)
+  in the Julia manual for a more in-depth comparison
+* Use
+  [PythonCall.jl](https://github.com/cjdoris/PythonCall.jl.git)/[CondaPkg.jl](https://github.com/JuliaPy/CondaPkg.jl.git)
+  to seamlessly integrate Python3 code into your Julia project
+* Use [juliacall](https://pypi.org/project/juliacall/) to seamlessly integrate
+  Julia code into your Python3 project
 
