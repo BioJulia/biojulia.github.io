@@ -1,14 +1,17 @@
 using Documenter
+using DocumenterVitepress
 
 makedocs(
-    sitename = "Overview of BioJulia",
+    sitename = "BioJulia Unified Docs",
     authors = "Michael Persico",
     modules = Module[],
     clean = true,
     doctest = false,
     draft = false,
     # TODO expand (https://github.com/SciML/SciMLDocs/blob/0fa5c9c43cf768588124861e76c7854e671ad9d7/docs/make.jl#L29C1-L29C63)
-    format = Documenter.HTML(assets=["assets/favicon.ico"]),
+    format = DocumenterVitepress.MarkdownVitepress(
+        repo = "https://github.com/BioJulia/BioJuliaDocs"
+    ),
     pages = [
         "BioJulia: Fast, open, easy software for biology" => "index.md",
         "Getting Started" => [
@@ -35,5 +38,8 @@ makedocs(
 
 deploydocs(
     repo = "https://github.com/BioJulia/BioJuliaDocs.git",
+    target = "build",
+    devbranch = "main",
+    branch = "gh-pages",
     push_preview = true,
 )
