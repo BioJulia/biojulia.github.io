@@ -1,3 +1,4 @@
+```@raw html
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 # Cribbed from DimensionalData.jl
@@ -30,5 +31,4 @@ features:
     details: Visualize sequences and 3D proteins with ease
     link: https://biojulia.dev/BioMakie.jl
 ---
-
-
+```
