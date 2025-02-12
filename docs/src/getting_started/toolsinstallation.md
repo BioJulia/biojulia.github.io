@@ -71,22 +71,22 @@ most of the REPL:
     cannot be performed without restarting your session, such as redefining
     structs (see the example below). You can mitigate this by adding the
     [Revise](https://timholy.github.io/Revise.jl/stable/) package, although
-    restarting the session is the simplest option. `
-    ```julia 
-      julia> struct Point
-              x::Int
-              y::Int
-             end
-
-      julia> struct Point
-              x::Int
-              z::Int
+    restarting the session is the simplest option. 
+  ```julia 
+    julia> struct Point
+            x::Int
+            y::Int
             end
-      ERROR: invalid redefinition of constant Point
-      Stacktrace:
-      [1] top-level scope
-      @ REPL[2]:1
-    ```
+
+    julia> struct Point
+            x::Int
+            z::Int
+          end
+    ERROR: invalid redefinition of constant Point
+    Stacktrace:
+    [1] top-level scope
+    @ REPL[2]:1
+  ```
 
 Consult the [The Julia REPL](https://docs.julialang.org/en/v1/stdlib/REPL/)
 section in the Julia manual for more details.

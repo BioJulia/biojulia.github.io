@@ -41,9 +41,9 @@
 | Single implementation available (JuliaLang)                            | Multiple implementations available (pqR, Renjin, etc.)                            |
 
 **To transition from R to Julia:**
-* See [Noteworthy differences from
+* Consult the [Noteworthy differences from
   R](https://docs.julialang.org/en/v1/manual/noteworthy-differences/#Noteworthy-differences-from-R)
-  in the Julia manual for a more in-depth comparison
+  section in the Julia manual for a more in-depth comparison
 * Use [RCall.jl](https://github.com/JuliaInterop/RCall.jl.git) to seamlessly
   integrate R code into your Julia project
 * Use

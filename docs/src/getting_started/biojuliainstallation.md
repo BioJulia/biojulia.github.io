@@ -16,9 +16,9 @@ There are two standard methods to install a package:
     directory. When you are developing a package, you must activate its
     project-specific environment by calling `activate MyProjectName` (see
     [Package development](@ref pkg-devel) below) so that you can isolate your
-    dependencies from the global environment and manage them independently. See
-    [Working with Environment](https://pkgdocs.julialang.org/v1/environments/)
-    for more details.
+    dependencies from the global environment and manage them independently. Consult
+    the [Working with Environment](https://pkgdocs.julialang.org/v1/environments/)
+    section of the Julia package manager manual for more details.
 
 * **The package manager (Pkg) module**
 
