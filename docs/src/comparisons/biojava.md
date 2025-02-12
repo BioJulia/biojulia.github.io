@@ -6,13 +6,13 @@
   `org.biojava` package
 * Launched in 2002 with six major releases covering more than 11 Java releases
 
-**A few equivalent applications between BioJulia and BioJava:**
+**A few similar applications between BioJulia and BioJava:**
 
-| Application               | BioJulia packages                                                                                                                             | BioJava modules                                 |
-|:--------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------|
-| Input/Output              | [FASTX](https://biojulia.dev/FASTX.jl/stable/), [XAM](https://biojulia.dev/XAM.jl/stable/), [BigWig](https://biojulia.dev/BigWig.jl/dev/),... | `nbio.genome.io.fastq`, `nbio.ontology.obo`,... |
-| Sequence alignment        | [BioSequences](https://biojulia.dev/BioSequences.jl/stable/), [BioAlignments](https://biojulia.dev/BioAlignments.jl/stable/)                  | `nbio.sequence`, `nbio.alignment`               |
-| Macromolecular structures | [BioStructures](https://biojulia.dev/BioStructures.jl/stable/)                                                                                | `nbio.structure`                                |
+| Application               | BioJulia packages                                                                                                                               | BioJava modules                                   |
+|:--------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------|
+| Input/Output              | [FASTX](https://biojulia.dev/FASTX.jl/stable/), [XAM](https://biojulia.dev/XAM.jl/stable/), [BigWig](https://biojulia.dev/BigWig.jl/dev/), etc. | `nbio.genome.io.fastq`, `nbio.ontology.obo`, etc. |
+| Sequence alignment        | [BioSequences](https://biojulia.dev/BioSequences.jl/stable/), [BioAlignments](https://biojulia.dev/BioAlignments.jl/stable/)                    | `nbio.sequence`, `nbio.alignment`                 |
+| Macromolecular structures | [BioStructures](https://biojulia.dev/BioStructures.jl/stable/)                                                                                  | `nbio.structure`                                  |
 
 **A few package/ecosystem equivalents between Julia and Java:**
 
@@ -28,15 +28,15 @@
 
 **A few notable differences between Julia and Java:**
 
-| Julia                                                                  | Java                                                                                     |
-|:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
-| High-level, general-purpose compiled language                          | High-level, object-oriented, two-step (compiled and interpreted) language                |
-| Expression-based (statements yield a value)                            | Statement-based (assignment as a statement)                                              |
-| Dynamically typed with multiple dispatch and optional type annotations | Statically typed with required type declarations                                         |
-| Built-in parallelism via threads, coroutines (Tasks)                   | Built-in parallelism via threads, streams, fibers (Project Loom)                         |
-| Extensive metaprogramming (Lisp-like macros, homoiconicity,...)        | Less extensive metaprogramming (reflection, annotations,...)                             |
-| Included default package manager                                       | No default package manager (dependency/build management tools include Maven, Gradle,...) |
-| Single implementation available (JuliaLang)                            | Multiple implementations available (OpenJDK, GraalVM,...)                                |
+| Julia                                                                  | Java                                                                                       |
+|:-----------------------------------------------------------------------|:-------------------------------------------------------------------------------------------|
+| High-level, general-purpose compiled language                          | High-level, object-oriented, two-step (compiled and interpreted) language                  |
+| Expression-based (statements yield a value)                            | Statement-based (statements don't always yield a value)                                    |
+| Dynamically typed with multiple dispatch and optional type annotations | Statically typed with required type declarations                                           |
+| Built-in parallelism via threads, coroutines (Tasks)                   | Built-in parallelism via threads, streams, fibers (Project Loom)                           |
+| Lisp-like (homoiconic, macro-based) metaprogramming                    | Reflection-based runtime metaprogramming                                                   |
+| Included default package manager                                       | No default package manager (dependency/build management tools include Maven, Gradle, etc.) |
+| Single implementation available (JuliaLang)                            | Multiple implementations available (OpenJDK, GraalVM, etc.)                                |
 
 **To transition from Java to Julia:**
 * Use [JavaCall.jl](https://juliainterop.github.io/JavaCall.jl/) to seamlessly

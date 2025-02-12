@@ -3,9 +3,8 @@
 ## Standard installation
 
 As with any Julia package, you can easily install any BioJulia package with the
-help of the [official package manager](https://pkgdocs.julialang.org/v1/)
-included by default with every Julia installation. All you need to know is the
-name of the package of interest!
+help of the [official built-in package manager](https://pkgdocs.julialang.org/v1/). 
+All you need to know is the name of the package of interest!
 
 There are two standard methods to install a package:
 
@@ -13,7 +12,7 @@ There are two standard methods to install a package:
     The Julia package manager, similarly to conda and others, organizes
     dependencies according to the "environment" they are in, meaning in which
     directory the packages are installed to. The default Julia session adds
-    packages to a "global" environment, usually the .julia/environments/v1.x
+    packages to a "global" environment, usually the `.julia/environments/v1.x`
     directory. When you are developing a package, you must activate its
     project-specific environment by calling `activate MyProjectName` (see
     [Package development](@ref pkg-devel) below) so that you can isolate your
@@ -34,7 +33,7 @@ julia> using <name of package here>
 !!! note 
     One excellent trick is that any Julia code with the `julia>` prompt
     included at the beginning of the line can be copy/pasted as is into the
-    REPL! See the [Julia REPL](@ref julia-repl) section for more.
+    REPL! See the [Julia REPL](@ref julia-repl) section for more details.
 
 * **Pkg mode**
 
@@ -47,7 +46,7 @@ julia> using <name of package here>
 julia> using <name of package here>
 ```
 
-!!! note J
+!!! note
     Just like with the previous method, you can copy/paste code with the
     `(@v1.x) pkg>` prompt included and Julia will work correctly! You can even
     skip having to enter Pkg mode by just entering directly `(@v1.x) pkg>
@@ -62,7 +61,7 @@ the package manager can also help you by first cloning the package repository to
 your development machine. Pkg will then load the required dependencies in a new
 dependency environment based on the package's `Project.toml` file. Thereafter,
 both the direct and indirect dependencies can be locked using a generated
-`Manifest.toml` if needed and a pull request can be submitted. 
+`Manifest.toml` if desired and a pull request can be submitted. 
 
 There are two standard methods to set up Julia for developing a package:
 
@@ -97,9 +96,9 @@ julia> using <name of package here>
     already installed the package locally, simply make sure to point Pkg to the
     right path as shown above.
 
-You can now change your source code and load them into the Julia session with
+You can now change your source code and load it into the Julia session with
 `using <name of package here>`. To test your code, run `(@v1.9) pkg> test` to
-run the package's test suite to ensure that everything works correctly. When you
+execute the package's test suite and ensure that everything works correctly. When you
 are done developing the package, enter `(@v1.9) pkg> free` to stop tracking the
 package. 
 

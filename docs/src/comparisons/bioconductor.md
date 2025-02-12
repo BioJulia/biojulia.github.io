@@ -9,15 +9,15 @@
 * Packages cover a broard range of methods for the analysis and manipulation of
   genomic data
 
-**A few equivalent applications between BioJulia and Bioconductor:**
+**A few similar applications between BioJulia and Bioconductor:**
 
-| Application         | BioJulia packages                                                                                                                                                                                            | Bioconductor packages                   |
-|:--------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------|
-| Data structures     | [BioSymbols](https://biojulia.dev/BioSymbols.jl/stable/), [KmerAnalysis](https://github.com/BioJulia/KmerAnalysis.jl), [IntervalTrees](https://biojulia.dev/IntervalTrees.jl/stable/)                        | `Biobase`                               |
-| Sequence annotation | [GenomicFeatures](https://biojulia.dev/GenomicFeatures.jl/stable/), [GenomicAnnotations](https://biojulia.dev/GenomicAnnotations.jl/dev/), [FormatSpecimens](https://github.com/BioJulia/FormatSpecimens.jl) | `AnnotationHub`                         |
-| Input/Output        | [FASTX](https://biojulia.dev/FASTX.jl/stable/), [XAM](https://biojulia.dev/XAM.jl/stable/), [BigWig](https://biojulia.dev/BigWig.jl/dev/),...                                                                | `BiocIO`, `Biostrings`, `ShortRead`,... |
-| Sequence alignment  | [BioSequences](https://biojulia.dev/BioSequences.jl/stable/), [BioAlignments](https://biojulia.dev/BioAlignments.jl/stable/)                                                                                 | `Biostrings`                            |
-| Expression analysis | [SingleCellProjections](https://biojulia.dev/SingleCellProjections.jl/dev/)                                                                                                                                  | `DESeq2`                                |
+| Application         | BioJulia packages                                                                                                                                                                                            | Bioconductor packages                     |
+|:--------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------|
+| Data structures     | [BioSymbols](https://biojulia.dev/BioSymbols.jl/stable/), [KmerAnalysis](https://github.com/BioJulia/KmerAnalysis.jl), [IntervalTrees](https://biojulia.dev/IntervalTrees.jl/stable/)                        | `Biobase`                                 |
+| Sequence annotation | [GenomicFeatures](https://biojulia.dev/GenomicFeatures.jl/stable/), [GenomicAnnotations](https://biojulia.dev/GenomicAnnotations.jl/dev/), [FormatSpecimens](https://github.com/BioJulia/FormatSpecimens.jl) | `AnnotationHub`                           |
+| Input/Output        | [FASTX](https://biojulia.dev/FASTX.jl/stable/), [XAM](https://biojulia.dev/XAM.jl/stable/), [BigWig](https://biojulia.dev/BigWig.jl/dev/), etc.                                                              | `BiocIO`, `Biostrings`, `ShortRead`, etc. |
+| Sequence alignment  | [BioSequences](https://biojulia.dev/BioSequences.jl/stable/), [BioAlignments](https://biojulia.dev/BioAlignments.jl/stable/)                                                                                 | `Biostrings`                              |
+| Expression analysis | [SingleCellProjections](https://biojulia.dev/SingleCellProjections.jl/dev/)                                                                                                                                  | `DESeq2`                                  |
 
 **A few package/ecosystem equivalents between Julia and R:**
 
@@ -32,13 +32,13 @@
 
 **A few notable differences between Julia and R:**
 
-| Julia                                                                  | R                                                                                |
-|:-----------------------------------------------------------------------|:---------------------------------------------------------------------------------|
-| High-level, general-purpose compiled language                          | High-level, interpreted language for statistical computing                       |
-| Dynamically typed with multiple dispatch and optional type annotations | Dynamically typed without type annotations support                               |
-| Built-in parallelism via threads, coroutines (Tasks)                   | Parallelism via external libraries (BLAS, `parallel`,...)                        |
-| Extensive metaprogramming (Lisp-like macros, generated functions,...)  | Less extensive metaprogramming (function factories, expression manipulation,...) |
-| Single implementation available (JuliaLang)                            | Multiple implementations available (pqR, Renjin,...)                             |
+| Julia                                                                  | R                                                                                 |
+|:-----------------------------------------------------------------------|:----------------------------------------------------------------------------------|
+| High-level, general-purpose compiled language                          | High-level, interpreted language for statistical computing and data visualization |
+| Dynamically typed with multiple dispatch and optional type annotations | Dynamically typed without type annotations support                                |
+| Built-in parallelism via threads, coroutines (Tasks)                   | Parallelism via external libraries (BLAS, `parallel`, etc.)                       |
+| Lisp-like (homoiconic, macro-based) metaprogramming                    | Partially homoiconic, non-standard evaluation metaprogramming                     |
+| Single implementation available (JuliaLang)                            | Multiple implementations available (pqR, Renjin, etc.)                            |
 
 **To transition from R to Julia:**
 * See [Noteworthy differences from
@@ -51,5 +51,5 @@
   to seamlessly integrate Julia code into your R project
 * Check out the [Tidier.jl
   ecosystem](https://tidierorg.github.io/Tidier.jl/dev/) for packages similar to
-  those commonly found in `tidyverse`
+  those commonly found in R's tidyverse
 

@@ -8,12 +8,12 @@
 * Primarily composed of wrapper classes/modules for common bioinformatics,
   molecular biology applications 
 
-**A few equivalent application tools between BioJulia and BioRuby:**
+**A few equivalent applications between BioJulia and BioRuby:**
 
-| Application        | BioJulia packages                                                                                                                             | BioRuby classes/modules           |
-|:-------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------|
-| Sequence alignment | [BioSequences](https://biojulia.dev/BioSequences.jl/stable/), [BioAlignments](https://biojulia.dev/BioAlignments.jl/stable/)                  | `Bio::Sequence`, `Bio::Alignment` |
-| Input/Output       | [FASTX](https://biojulia.dev/FASTX.jl/stable/), [XAM](https://biojulia.dev/XAM.jl/stable/), [BigWig](https://biojulia.dev/BigWig.jl/dev/),... | `Bio::Fasta`, `Bio::Fastq`,...    |
+| Application        | BioJulia packages                                                                                                                               | BioRuby classes/modules           |
+|:-------------------|:------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------|
+| Sequence alignment | [BioSequences](https://biojulia.dev/BioSequences.jl/stable/), [BioAlignments](https://biojulia.dev/BioAlignments.jl/stable/)                    | `Bio::Sequence`, `Bio::Alignment` |
+| Input/Output       | [FASTX](https://biojulia.dev/FASTX.jl/stable/), [XAM](https://biojulia.dev/XAM.jl/stable/), [BigWig](https://biojulia.dev/BigWig.jl/dev/), etc. | `Bio::Fasta`, `Bio::Fastq`, etc.  |
 
 **A few package/ecosystem equivalents between Julia and Ruby:**
 
@@ -29,13 +29,13 @@
 
 **A few notable differences between Julia and Ruby:**
 
-| Julia                                                                  | Ruby                                                                           |
-|:-----------------------------------------------------------------------|:-------------------------------------------------------------------------------|
-| High-level, general-purpose compiled language                          | High-level, general-purpose interpreted language                               |
-| Dynamically typed with multiple dispatch and optional type annotations | Dynamically typed with optional type annotations (Sorbet, RBS)                 |
-| Built-in parallelism via threads, coroutines (Tasks)                   | Built-in parallelism via threads, fibers                                       |
-| Lisp-inspired metaprogramming (S-expressions, homoiconicity,...)       | Macro-less metaprogramming capabilities (dynamic reflection, eval methods,...) |
-| Single implementation available (JuliaLang)                            | Multiple implementations available (TruffleRuby, mruby,...)                    |
+| Julia                                                                  | Ruby                                                           |
+|:-----------------------------------------------------------------------|:---------------------------------------------------------------|
+| High-level, general-purpose compiled language                          | High-level, general-purpose interpreted language               |
+| Dynamically typed with multiple dispatch and optional type annotations | Dynamically typed with optional type annotations (Sorbet, RBS) |
+| Built-in parallelism via threads, coroutines (Tasks)                   | Built-in parallelism via threads, fibers                       |
+| Lisp-like (homoiconic, macro-based) metaprogramming                    | Primarily runtime metaprogramming                              |
+| Single implementation available (JuliaLang)                            | Multiple implementations available (TruffleRuby, mruby, etc.)  |
 
 **To transition from Ruby to Julia:**
 * Read the [Julia manual](https://docs.julialang.org/) for an in-depth look at
