@@ -27,8 +27,8 @@ winget install julia -s msstore
   can generate the `juliaup` executable via the Cargo package manager:
 
 !!! warning 
-  This is not recommended for the most users, and should be avoided
-  unless you cannot download the official juliaup executable.
+    This is not recommended for the most users, and should be avoided
+    unless you cannot download the official juliaup executable.
 
 ```
 cargo install juliaup
@@ -45,8 +45,8 @@ containerized application.
 You must first download the image via the Docker or Podman command-line tool:
 
 !!! note 
-  If you are using Podman, you can replace the keyword `docker` with
-  `podman` in any of the following commands!
+    If you are using Podman, you can replace the keyword `docker` with
+    `podman` in any of the following commands!
 
 ```
 docker pull julia:latest
@@ -58,8 +58,8 @@ You can specify which version of the image you wish to install via tags, such as
 To create a container instance, run the following command:
 
 !!! note 
-  If you had skipped the previous test, then Docker/Podman will
-  automatically begin installing the container image for you here!
+    If you had skipped the previous test, then Docker/Podman will
+    automatically begin installing the container image for you here!
 
 ```
 docker run -it --rm --network host julia:latest

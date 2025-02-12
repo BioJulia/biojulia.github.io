@@ -1,14 +1,14 @@
 # [Case Scenarios](@id casescenarios)
 
 !!! note 
-  These scenarios are inspired by stories from fellow members of the
-  BioJulia/Julia community!
+    These scenarios are inspired by stories from fellow members of the
+    BioJulia/Julia community!
 
 ## Industry
 
 !!! tip 
-  Visit [JuliaHub](https://juliahub.com/case-studies/) for real-world case
-  studies of Julia in multiple industries!
+    Visit [JuliaHub](https://juliahub.com/case-studies/) for real-world case
+    studies of Julia in multiple industries!
 
 A biotechnology-oriented collaborative research organization has ordered their
 IT department to organize the first in-house software development division.
@@ -24,7 +24,7 @@ similar problems with the current workplace setup:
 - Some workflows can be repetitive and could take advantage of some automation
   to reduce overall time
 
-It is thus decided that an researcher-facing platform should be created that
+It is thus decided that a researcher-facing platform should be created that
 will host a suite of simple, web-based software tools. These can include tools
 usable by any researcher or by only one or several teams depending on their
 needs. The new division is given the following objectives:
@@ -104,9 +104,9 @@ research organizations that face the same challenges.
 ## Research
 
 !!! tip 
-  Visit [The Journal of Open Source Software](https://joss.theoj.org/) and
-  [JuliaCon Proceedings](https://proceedings.juliacon.org/) to explore several
-  research packages written in Julia!
+    Visit [The Journal of Open Source Software](https://joss.theoj.org/) and
+    [JuliaCon Proceedings](https://proceedings.juliacon.org/) to explore several
+    research packages written in Julia!
 
 A freshly minted researcher begins the morning with a new directive from the
 principal investigator. Their lab specializes in translational cancer

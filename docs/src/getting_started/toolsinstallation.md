@@ -67,25 +67,25 @@ most of the REPL:
   `if abspath(<name of program file>) == @__FILE__`
 
 !!! warning 
-  One common gotcha with the Julia REPL is that certain code changes
-  cannot be performed without restarting your session, such as redefining
-  structs (see the example below). You can mitigate this by adding the
-  [Revise](https://timholy.github.io/Revise.jl/stable/) package, although
-  restarting the session is the simplest option. `
-  ```julia 
-    julia> struct Point
-            x::Int
-            y::Int
-           end
+    One common gotcha with the Julia REPL is that certain code changes
+    cannot be performed without restarting your session, such as redefining
+    structs (see the example below). You can mitigate this by adding the
+    [Revise](https://timholy.github.io/Revise.jl/stable/) package, although
+    restarting the session is the simplest option. `
+    ```julia 
+      julia> struct Point
+              x::Int
+              y::Int
+             end
 
-    julia> struct Point
-            x::Int
-            z::Int
-           end
-    ERROR: invalid redefinition of constant Point
-    Stacktrace:
-    [1] top-level scope
-    @ REPL[2]:1
+      julia> struct Point
+              x::Int
+              z::Int
+            end
+      ERROR: invalid redefinition of constant Point
+      Stacktrace:
+      [1] top-level scope
+      @ REPL[2]:1
     ```
 
 Consult the [The Julia REPL](https://docs.julialang.org/en/v1/stdlib/REPL/)
@@ -166,8 +166,8 @@ Jupyter notebooks, which is the most popular web-based notebook solution.
 To install IJulia/Jupyter and run the notebook server:
 
 !!! note 
-  Instead of loading Pkg, one can simply activate pkg mode with the `]`
-  key and enter `(@v1.9) pkg> add <package name here>`
+    Instead of loading Pkg, one can simply activate pkg mode with the `]`
+    key and enter `(@v1.9) pkg> add <package name here>`
 
 1. Install Julia via any method mentioned in the [Installing Julia](@ref
    juliainstallation) section

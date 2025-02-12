@@ -7,7 +7,7 @@
 * Launched in 2014 based on a BSD-relicensing of PyCogent and QIIME code and is
   currently in beta/maintenance mode
 
-**A few equivalent applications between BioJulia and scikit-bio:**
+**A few similar applications between BioJulia and scikit-bio:**
 
 | Application        | BioJulia packages                                                                                                                             | scikit-bio modules                  |
 |:-------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------|

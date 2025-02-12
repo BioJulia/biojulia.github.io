@@ -8,7 +8,7 @@
 * Primarily composed of wrapper classes/modules for common bioinformatics,
   molecular biology applications 
 
-**A few equivalent applications between BioJulia and BioRuby:**
+**A few similar applications between BioJulia and BioRuby:**
 
 | Application        | BioJulia packages                                                                                                                               | BioRuby classes/modules           |
 |:-------------------|:------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------|
