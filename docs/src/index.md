@@ -9,7 +9,7 @@ hero:
   text: "Doing Biology with Julia"
   tagline: Unified Docs
   image:
-    src: '/assets/biojulia-logo1.svg'
+    src: '/assets/logo.png'
   actions:
     - theme: brand
       text: Getting Started
@@ -33,6 +33,7 @@ features:
   - title: BioMakie.jl
     details: Visualize sequences and 3D proteins with ease
     link: https://biojulia.dev/BioMakie.jl
+    icon: <img width="64" height="64" src="https://github.com/MakieOrg/Makie.jl/blob/master/docs/src/assets/logo.png"/>
   - title: SingleCellProjections.jl
     details: More cells? No Problem! Get UMAPs and other projections of your singlg cell data using the power of Sparse Matrices
     link: https://biojulia.dev/SingleCellProjections.jl
