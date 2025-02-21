@@ -6,10 +6,10 @@ layout: home
 
 hero:
   name: "BioJulia"
-  text: "Unified Docs"
-  tagline: Doing biology with julia
+  text: "Doing Biology with Julia"
+  tagline: Unified Docs
   image:
-    src: '/assets/biojulia-logo1.png'
+    src: '/assets/biojulia-logo1.svg'
   actions:
     - theme: brand
       text: Getting Started

@@ -1,3 +1,0 @@
-# Posts
-
-- [Hardware](/posts/hardware)
