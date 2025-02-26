@@ -15,13 +15,25 @@ similar to [SciMLDocs](https://github.com/SciML/SciMLDocs) (see the production p
 
 The rendered BioJuliaDocs site, for testing purposes, is published online using GitHub Pages at [biojulia.dev/BioJuliaDocs](https://biojulia.dev/BioJuliaDocs). A GitHub action rebuilds the site on every successful pull request.
 
-To deploy the site locally:
+To deploy the site locally, open two separate julia processes,
+and activate the "docs/" project.
+Then, in the first, run:
+
 ```julia
 # Make sure you are within or are pointing to the the docs/ folder
-using Documenter, LiveServer
-include("make.jl")
-serve(dir="build")
+using LiveServer
+servedocs(; foldername=pwd())
 ```
+
+And in the other, run:
+
+```julia
+using DocumenterVitepress
+
+DocumenterVitepress.dev_docs("build"; md_output_path="")
+```
+
+Open the LocalHost Url spawned by the vitepress process
 
 ## Contributing
 
