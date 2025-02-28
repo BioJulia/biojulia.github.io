@@ -125,11 +125,6 @@ necessary.
 Each package is dedicated to introducing a specific data type or algorithm, or
 dealing with a specific biological problem or pipeline.
 
-Whilst there are some "meta-packages" such as [Bio.jl](https://github.com/BioJulia/Bio.jl), which bundle individual
-packages together for convenience of installation and use, most of the BioJulia
-software ecosystem is quite decentralized: different scientists with different
-expertise use and contribute to them.
-
 Therefore, it made sense that maintenance of the packages should also be
 fairly decentralized, to achieve this, we created the role of a "Package
 Maintainer".
