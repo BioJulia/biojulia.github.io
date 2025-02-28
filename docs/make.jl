@@ -12,7 +12,6 @@ makedocs(
     format = DocumenterVitepress.MarkdownVitepress(
         repo = "https://github.com/BioJulia/BioJuliaDocs",
         md_output_path = ".",
-        build_vitepress = false
     ),
     pages = [
         "Getting Started" => [
