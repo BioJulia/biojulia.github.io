@@ -1,3 +1,4 @@
+```@raw html
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 # Cribbed from DimensionalData.jl
@@ -37,4 +38,4 @@ features:
     details: More cells? No Problem! Get UMAPs and other projections of your singlg cell data using the power of Sparse Matrices
     link: https://biojulia.dev/SingleCellProjections.jl
 ---
-
+```
