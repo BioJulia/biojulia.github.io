@@ -9,14 +9,14 @@
 * Capabilities cover a number of molecular biology applications including
   sequence alignment, population genetics, and machine learning
 
-**A few equivalent application tools between BioJulia and Biopython:**
+**A few similar applications between BioJulia and Biopython:**
 
-| Application         | BioJulia packages                                                                                                                             | Biopython objects/modules  |
-|:--------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------|
-| Sequence annotation | [GenomicFeatures](https://biojulia.dev/GenomicFeatures.jl/stable/), [GenomicAnnotations](https://biojulia.dev/GenomicAnnotations.jl/dev/)     | `Seq`, `SeqRecord`         |
-| Input/Output        | [FASTX](https://biojulia.dev/FASTX.jl/stable/), [XAM](https://biojulia.dev/XAM.jl/stable/), [BigWig](https://biojulia.dev/BigWig.jl/dev/),... | `Bio.SeqIO`, `Bio.AlignIO` |
-| Sequence alignment  | [BioSequences](https://biojulia.dev/BioSequences.jl/stable/), [BioAlignments](https://biojulia.dev/BioAlignments.jl/stable/)                  | `Bio.Align`                |
-| Population genetics | [PopGen](https://biojulia.dev/PopGen.jl/)                                                                                                     | `Bio.PopGen`               |
+| Application         | BioJulia packages                                                                                                                               | Biopython objects/modules  |
+|:--------------------|:------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------|
+| Sequence annotation | [GenomicFeatures](https://biojulia.dev/GenomicFeatures.jl/stable/), [GenomicAnnotations](https://biojulia.dev/GenomicAnnotations.jl/dev/)       | `Seq`, `SeqRecord`         |
+| Input/Output        | [FASTX](https://biojulia.dev/FASTX.jl/stable/), [XAM](https://biojulia.dev/XAM.jl/stable/), [BigWig](https://biojulia.dev/BigWig.jl/dev/), etc. | `Bio.SeqIO`, `Bio.AlignIO` |
+| Sequence alignment  | [BioSequences](https://biojulia.dev/BioSequences.jl/stable/), [BioAlignments](https://biojulia.dev/BioAlignments.jl/stable/)                    | `Bio.Align`                |
+| Population genetics | [PopGen](https://biojulia.dev/PopGen.jl/)                                                                                                       | `Bio.PopGen`               |
 
 **A few package/ecosystem equivalents between Julia and Python3:**
 
@@ -32,21 +32,21 @@
 
 **A few notable differences between Julia and Python3:**
 
-| Julia                                                                  | Python3                                                                      |
-|:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------|
-| High-level, general-purpose compiled language                          | High-level, general-purpose interpreted language                             |
-| Expression-based (statements yield a value)                            | Statement-based (assignment as a statement)                                  |
-| Dynamically typed with multiple dispatch and optional type annotations | Dynamically typed with optional type annotations                             |
-| Built-in parallelism via threads, coroutines (Tasks)                   | Limited (GIL) built-in parallelism via threads, async/await                  |
-| Extensive metaprogramming (Lisp-like macros, homoiconicity,...)        | Less extensive metaprogramming (decorators, metaclasses,...)                 |
+| Julia                                                                  | Python3                                                     |
+|:-----------------------------------------------------------------------|:------------------------------------------------------------|
+| High-level, general-purpose compiled language                          | High-level, general-purpose interpreted language            |
+| Expression-based (statements yield a value)                            | Statement-based (statements don't always yield a value)     |
+| Dynamically typed with multiple dispatch and optional type annotations | Dynamically typed with optional type annotations            |
+| Built-in parallelism via threads, coroutines (Tasks)                   | Limited (GIL) built-in parallelism via threads, async/await |
+| Lisp-like (homoiconic, macro-based) metaprogramming        | Reflection-based runtime metaprogramming
 | Included default package manager                                       | No default package manager (poetry, conda, and other alternatives available) |
-| Single implementation available (JuliaLang)                            | Multiple implementations available (PyPy, Numba,...)                         |
+| Single implementation available (JuliaLang)                            | Multiple implementations available (PyPy, Numba, etc.)                         |
 | Arrays are column-major (columns are contiguous in memory)             | (Numpy) arrays are row-major by default (rows are contiguous in memory)      |
 
 **To transition from Python3 to Julia:**
-* See [Noteworthy differences from
+* Consult the [Noteworthy differences from
   Python](https://docs.julialang.org/en/v1/manual/noteworthy-differences/#Noteworthy-differences-from-Python)
-  in the Julia manual for a more in-depth comparison
+  section in the Julia manual for a more in-depth comparison
 * Use
   [PythonCall.jl](https://github.com/cjdoris/PythonCall.jl.git)/[CondaPkg.jl](https://github.com/JuliaPy/CondaPkg.jl.git)
   to seamlessly integrate Python3 code into your Julia project
