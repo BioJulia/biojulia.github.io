@@ -34,8 +34,8 @@ makedocs(
     ]
 )
 
-deploydocs(
-    repo = "https://github.com/BioJulia/BioJuliaDocs.git",
+DocumenterVitepress.deploydocs(
+    repo = "github.com/BioJulia/BioJuliaDocs.git",
     target = "build",
     devbranch = "main",
     branch = "gh-pages",
