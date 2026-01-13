@@ -30,7 +30,7 @@ And in the other, run:
 ```julia
 using DocumenterVitepress
 
-DocumenterVitepress.dev_docs("build"; md_output_path="")
+DocumenterVitepress.dev_docs("build")
 ```
 
 Open the LocalHost Url spawned by the vitepress process
