@@ -1,8 +1,20 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, watch, nextTick } from 'vue'
 
 const isVisible = ref(true)
 const storageKey = 'biojulia-juliacon2026-banner-dismissed'
+
+function updateBannerHeight() {
+  if (isVisible.value) {
+    const banner = document.querySelector('.announcement-banner')
+    if (banner) {
+      const height = banner.offsetHeight
+      document.documentElement.style.setProperty('--banner-height', `${height}px`)
+    }
+  } else {
+    document.documentElement.style.setProperty('--banner-height', '0px')
+  }
+}
 
 onMounted(() => {
   // Check if user has previously dismissed the banner
@@ -10,6 +22,16 @@ onMounted(() => {
   if (isDismissed === 'true') {
     isVisible.value = false
   }
+
+  nextTick(() => {
+    updateBannerHeight()
+  })
+})
+
+watch(isVisible, () => {
+  nextTick(() => {
+    updateBannerHeight()
+  })
 })
 
 function dismiss() {
@@ -41,10 +63,16 @@ function dismiss() {
   color: white;
   padding: 0.75rem 1rem;
   text-align: center;
-  position: relative;
-  z-index: 100;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: transform 0.3s ease;
 }
 
 .announcement-content {
@@ -122,5 +150,36 @@ function dismiss() {
   .announcement-icon {
     font-size: 1rem;
   }
+}
+</style>
+
+<style>
+/* Global styles to adjust VitePress layout for the banner */
+:root {
+  --banner-height: 0px;
+}
+
+/* Adjust the main navigation bar */
+.VPNav {
+  top: var(--banner-height, 0) !important;
+  transition: top 0.3s ease !important;
+}
+
+/* Adjust the local navigation (breadcrumb/outline toggle) */
+.VPLocalNav {
+  top: calc(var(--vp-nav-height) + var(--banner-height, 0)) !important;
+  transition: top 0.3s ease !important;
+}
+
+/* Adjust sidebar positioning to account for banner */
+.VPSidebar {
+  top: calc(var(--vp-nav-height) + var(--banner-height, 0)) !important;
+  transition: top 0.3s ease !important;
+}
+
+/* Adjust content area */
+.VPContent {
+  padding-top: var(--banner-height, 0) !important;
+  transition: padding-top 0.3s ease !important;
 }
 </style>
