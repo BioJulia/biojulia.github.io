@@ -1,3 +1,26 @@
+<!--
+  ANNOUNCEMENT BANNER FOR JULIACON 2026 CALL FOR ABSTRACTS
+
+  To remove this banner and revert all changes:
+
+  1. Delete the entire `docs/src/.vitepress/theme/` directory:
+     - AnnouncementBanner.vue (this file)
+     - Layout.vue
+     - index.js
+
+  2. No other files were modified - the theme customization is entirely
+     contained in these three files.
+
+  3. Rebuild the documentation and the site will return to default VitePress theme.
+
+  Alternatively, to temporarily hide the banner without removing the code:
+  - Change `const isVisible = ref(true)` to `const isVisible = ref(false)` below
+
+  To update the banner message or link:
+  - Edit the template section below (around line 46-52)
+  - Change the storageKey if you want previously dismissed users to see it again
+-->
+
 <script setup>
 import { ref, onMounted, watch, nextTick } from 'vue'
 
