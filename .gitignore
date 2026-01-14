@@ -38,3 +38,6 @@ Manifest.toml
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# AI helpers
+CLAUDE.md
