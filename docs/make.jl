@@ -3,7 +3,7 @@ using DocumenterVitepress
 
 makedocs(
     sitename = "BioJulia",
-    authors = ["Michael Persico", "Kevin Bonham", "Danielle Pinto"]
+    authors = ["Michael Persico", "Kevin Bonham", "Danielle Pinto"],
     modules = Module[],
     clean = false,
     doctest = false,
