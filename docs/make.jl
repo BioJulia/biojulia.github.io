@@ -2,15 +2,15 @@ using Documenter
 using DocumenterVitepress
 
 makedocs(
-    sitename = "BioJulia Unified Docs",
-    authors = "Michael Persico",
+    sitename = "BioJulia",
+    authors = ["Michael Persico", "Kevin Bonham", "Danielle Pinto"]
     modules = Module[],
     clean = false,
     doctest = false,
     draft = false,
     # TODO expand (https://github.com/SciML/SciMLDocs/blob/0fa5c9c43cf768588124861e76c7854e671ad9d7/docs/make.jl#L29C1-L29C63)
     format = DocumenterVitepress.MarkdownVitepress(
-        repo = "https://github.com/BioJulia/BioJuliaDocs",
+        repo = "https://github.com/BioJulia/biojulia.github.io",
     ),
     pages = [
         "Getting Started" => [
@@ -35,7 +35,7 @@ makedocs(
 )
 
 DocumenterVitepress.deploydocs(
-    repo = "github.com/BioJulia/BioJuliaDocs.git",
+    repo = "github.com/BioJulia/biojulia.github.io.git",
     target = "build",
     devbranch = "main",
     branch = "gh-pages",
