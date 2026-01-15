@@ -11,6 +11,9 @@ makedocs(
     # TODO expand (https://github.com/SciML/SciMLDocs/blob/0fa5c9c43cf768588124861e76c7854e671ad9d7/docs/make.jl#L29C1-L29C63)
     format = DocumenterVitepress.MarkdownVitepress(
         repo = "https://github.com/BioJulia/biojulia.github.io",
+        devbranch = "main",
+        devurl = "dev",
+        deploy_url = "biojulia.dev",
     ),
     pages = [
         "Getting Started" => [
