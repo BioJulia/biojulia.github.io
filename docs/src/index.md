@@ -19,7 +19,7 @@ hero:
       link: /overview
     - theme: alt
       text: View on Github
-      link: https://github.com/BioJulia/BioJuliaDocs
+      link: https://github.com/BioJulia/biojulia.github.io
 features:
   - title: BioTutorials
     details: These are still a work in progress
