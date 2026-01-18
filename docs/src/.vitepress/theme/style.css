@@ -1,0 +1,25 @@
+/* Feature card badges */
+.feature-badge {
+  display: inline-block;
+  font-size: 0.7em;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin-right: 6px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.badge-bioinformatics {
+  background-color: #4063D8;  /* Julia blue */
+  color: white;
+}
+
+.badge-visualization {
+  background-color: #9558B2;  /* Julia purple */
+  color: white;
+}
+
+.badge-io {
+  background-color: #CB3C33;  /* Julia red */
+  color: white;
+}
