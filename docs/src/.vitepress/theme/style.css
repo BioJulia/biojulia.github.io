@@ -1,12 +1,21 @@
+/* Feature card title - badge above name */
+.VPFeature .title {
+  display: flex !important;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  width: 100%;
+}
+
 /* Feature card badges */
 .feature-badge {
-  display: inline-block;
-  font-size: 0.7em;
-  padding: 2px 8px;
-  border-radius: 12px;
-  margin-right: 6px;
+  display: inline-block !important;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
   font-weight: 600;
-  vertical-align: middle;
+  white-space: nowrap;
+  margin-bottom: 4px;
+  align-self: flex-end;
 }
 
 .badge-bioinformatics {
