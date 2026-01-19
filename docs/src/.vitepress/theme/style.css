@@ -94,6 +94,21 @@
   color: white;
 }
 
+.badge-files {
+  background-color: #389826;  /* Julia green */
+  color: white;
+}
+
+.badge-other {
+  background-color: #6B7280;  /* Gray */
+  color: white;
+}
+
+.badge-outside {
+  background-color: #F59E0B;  /* Amber/Orange */
+  color: white;
+}
+
 /* Filter buttons */
 .filter-buttons {
   display: flex;
