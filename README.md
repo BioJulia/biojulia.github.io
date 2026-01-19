@@ -13,7 +13,7 @@ similar to [SciMLDocs](https://github.com/SciML/SciMLDocs) (see the production p
 
 ## Testing
 
-The rendered BioJuliaDocs site, for testing purposes, is published online using GitHub Pages at [biojulia.dev/BioJuliaDocs](https://biojulia.dev/BioJuliaDocs). A GitHub action rebuilds the site on every successful pull request.
+The rendered BioJuliaDocs site, for testing purposes, is published online using GitHub Pages at [biojulia.dev/](https://biojulia.dev/). A GitHub action rebuilds the site on every successful pull request.
 
 To deploy the site locally, open two separate julia processes,
 and activate the "docs/" project.
@@ -50,6 +50,5 @@ Feel free to open a new discussion under the [BioJuliaDocs Discussions](https://
 Alternatively, one can chat with the community either via the [Slack](https://julialang.org/slack/) #biology workspace
 or in the [forums](https://discourse.julialang.org/).
 
-This project is lead by [Michael Persico](mailto:michael.a.persico@gmail.com?subject=[GitHub]) (him/il)
+This project was initially lead by [Michael Persico](mailto:michael.a.persico@gmail.com?subject=[GitHub]) (him/il)
 as part of a Julia Summer of Code project.
-Feel free to contact me directly should you wish to address any concerns privately.

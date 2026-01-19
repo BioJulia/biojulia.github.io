@@ -13,8 +13,6 @@ hero:
   actions:
     - theme: alt
       text: View on Github
-      link: https://github.com/BioJulia/BioJuliaDocs
----
 
 <div class="container custom-sections">
 
