@@ -16,7 +16,7 @@ hero:
       link: https://github.com/BioJulia/BioJuliaDocs
 ---
 
-<div class="vp-doc" style="padding: 0 24px; max-width: 1152px; margin: 0 auto;">
+<div class="container custom-sections">
 
 <h2 style="border-top: none; margin-top: 48px;">Tutorials</h2>
 
