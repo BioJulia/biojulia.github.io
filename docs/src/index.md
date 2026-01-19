@@ -1,7 +1,5 @@
 ```@raw html
 ---
-# https://vitepress.dev/reference/default-theme-home-page
-# Cribbed from DimensionalData.jl
 layout: home
 
 hero:
@@ -15,10 +13,12 @@ hero:
       text: View on Github
       link: https://github.com/BioJulia/BioJuliaDocs
 ---
+```
 
+```@raw html
 <div class="container custom-sections">
 
-<h2 style="border-top: none; margin-top: 48px;">Tutorials</h2>
+<h2 class="section-header">Tutorials</h2>
 
 <div class="VPFeatures">
   <div class="VPFeature">
@@ -31,7 +31,7 @@ hero:
   </div>
 </div>
 
-<h2 style="border-top: none; margin-top: 48px;">BioJulia Packages</h2>
+<h2 class="section-header">BioJulia Packages</h2>
 
 <div class="filter-buttons">
   <button class="filter-btn active" onclick="filterPackages('all', this)">All</button>
@@ -61,7 +61,7 @@ hero:
     <a href="https://biojulia.dev/BioMakie.jl" class="feature-link">
       <article class="box">
         <h3 class="title">BioMakie.jl <span class="feature-badge badge-visualization">Visualization</span></h3>
-        <p class="details">Visualize sequences and 3D proteins with ease<br/><img width="64" height="64" src="./assets/BioMakieLogo.png" style="margin-top: 8px;"/></p>
+        <p class="details">Visualize sequences and 3D proteins with ease</p>
       </article>
     </a>
   </div>
