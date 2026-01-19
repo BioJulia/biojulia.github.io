@@ -1,9 +1,48 @@
+/* Custom feature sections */
+.VPFeatures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.VPFeature {
+  flex: 0 0 calc(25% - 16px);
+  min-width: 240px;
+  max-width: 280px;
+}
+
+.VPFeature .box {
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  padding: 24px;
+  height: 100%;
+}
+
+.VPFeature a.feature-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.VPFeature a.feature-link:hover .box {
+  background-color: var(--vp-c-bg-mute);
+}
+
 /* Feature card title - badge above name */
 .VPFeature .title {
   display: flex !important;
   flex-direction: column-reverse;
   align-items: flex-start;
   width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+.VPFeature .details {
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+  margin: 0;
 }
 
 /* Feature card badges */
@@ -30,5 +69,36 @@
 
 .badge-io {
   background-color: #CB3C33;  /* Julia red */
+  color: white;
+}
+
+/* Filter buttons */
+.filter-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 6px 14px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 20px;
+  background-color: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+  border-color: var(--vp-c-brand);
+  color: var(--vp-c-brand);
+}
+
+.filter-btn.active {
+  background-color: var(--vp-c-brand);
+  border-color: var(--vp-c-brand);
   color: white;
 }
