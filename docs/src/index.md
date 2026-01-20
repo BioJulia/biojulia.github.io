@@ -91,19 +91,19 @@ hero:
       </article>
     </a>
   </div>
-  <div class="VPFeature" data-category="io">
-    <a href="https://biojulia.dev/BufferIO.jl" class="feature-link">
-      <article class="box">
-        <h3 class="title">BufferIO.jl <span class="feature-badge badge-io">I/O</span></h3>
-        <p class="details">IO interface for buffer operations</p>
-      </article>
-    </a>
-  </div>
   <div class="VPFeature" data-category="bioinformatics">
     <a href="https://biojulia.dev/BioAlignments.jl" class="feature-link">
       <article class="box">
         <h3 class="title">BioAlignments.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Sequence alignment algorithms and data structures</p>
+      </article>
+    </a>
+  </div>
+  <div class="VPFeature" data-category="other">
+    <a href="https://biojulia.dev/BioGenerics.jl" class="feature-link">
+      <article class="box">
+        <h3 class="title">BioGenerics.jl <span class="feature-badge badge-other">Other</span></h3>
+        <p class="details">Generic interface definitions for BioJulia packages</p>
       </article>
     </a>
   </div>
@@ -131,6 +131,14 @@ hero:
       </article>
     </a>
   </div>
+  <div class="VPFeature" data-category="other">
+    <a href="https://biojulia.dev/BioServices.jl" class="feature-link">
+      <article class="box">
+        <h3 class="title">BioServices.jl <span class="feature-badge badge-other">Other</span></h3>
+        <p class="details">Interface to biological web services and databases</p>
+      </article>
+    </a>
+  </div>
   <div class="VPFeature" data-category="bioinformatics">
     <a href="https://biojulia.dev/BioStructures.jl" class="feature-link">
       <article class="box">
@@ -147,11 +155,43 @@ hero:
       </article>
     </a>
   </div>
+  <div class="VPFeature" data-category="io">
+    <a href="https://biojulia.dev/BufferIO.jl" class="feature-link">
+      <article class="box">
+        <h3 class="title">BufferIO.jl <span class="feature-badge badge-io">I/O</span></h3>
+        <p class="details">IO interface for buffer operations</p>
+      </article>
+    </a>
+  </div>
   <div class="VPFeature" data-category="bioinformatics">
     <a href="https://biojulia.dev/CIGARStrings.jl" class="feature-link">
       <article class="box">
         <h3 class="title">CIGARStrings.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Parse and manipulate CIGAR strings for sequence alignments</p>
+      </article>
+    </a>
+  </div>
+  <div class="VPFeature" data-category="outside">
+    <a href="https://ecojulia.org" class="feature-link">
+      <article class="box">
+        <h3 class="title">EcoJulia <span class="feature-badge badge-outside">Outside Org</span></h3>
+        <p class="details">Ecological modeling and analysis ecosystem</p>
+      </article>
+    </a>
+  </div>
+  <div class="VPFeature" data-category="files">
+    <a href="https://biojulia.dev/FASTX.jl" class="feature-link">
+      <article class="box">
+        <h3 class="title">FASTX.jl <span class="feature-badge badge-files">Files</span></h3>
+        <p class="details">Read and write FASTA and FASTQ files</p>
+      </article>
+    </a>
+  </div>
+  <div class="VPFeature" data-category="other">
+    <a href="https://biojulia.dev/FormatSpecimens.jl" class="feature-link">
+      <article class="box">
+        <h3 class="title">FormatSpecimens.jl <span class="feature-badge badge-other">Other</span></h3>
+        <p class="details">Test specimens for biological file formats</p>
       </article>
     </a>
   </div>
@@ -179,6 +219,38 @@ hero:
       </article>
     </a>
   </div>
+  <div class="VPFeature" data-category="files">
+    <a href="https://biojulia.dev/GFF3.jl" class="feature-link">
+      <article class="box">
+        <h3 class="title">GFF3.jl <span class="feature-badge badge-files">Files</span></h3>
+        <p class="details">Read and write GFF3 format files</p>
+      </article>
+    </a>
+  </div>
+  <div class="VPFeature" data-category="files">
+    <a href="https://biojulia.dev/GraphicalFragmentAssembly.jl" class="feature-link">
+      <article class="box">
+        <h3 class="title">GraphicalFragmentAssembly.jl <span class="feature-badge badge-files">Files</span></h3>
+        <p class="details">Read and write GFA format for sequence graphs</p>
+      </article>
+    </a>
+  </div>
+  <div class="VPFeature" data-category="other">
+    <a href="https://biojulia.dev/IntervalTrees.jl" class="feature-link">
+      <article class="box">
+        <h3 class="title">IntervalTrees.jl <span class="feature-badge badge-other">Other</span></h3>
+        <p class="details">Efficient interval tree data structures</p>
+      </article>
+    </a>
+  </div>
+  <div class="VPFeature" data-category="outside">
+    <a href="https://juliahealth.org" class="feature-link">
+      <article class="box">
+        <h3 class="title">JuliaHealth <span class="feature-badge badge-outside">Outside Org</span></h3>
+        <p class="details">Health and medical informatics packages</p>
+      </article>
+    </a>
+  </div>
   <div class="VPFeature" data-category="bioinformatics">
     <a href="https://biojulia.dev/KmerAnalysis.jl" class="feature-link">
       <article class="box">
@@ -195,11 +267,51 @@ hero:
       </article>
     </a>
   </div>
+  <div class="VPFeature" data-category="other">
+    <a href="https://biojulia.dev/KWayMerges.jl" class="feature-link">
+      <article class="box">
+        <h3 class="title">KWayMerges.jl <span class="feature-badge badge-other">Other</span></h3>
+        <p class="details">K-way merge algorithms for sorted iterators</p>
+      </article>
+    </a>
+  </div>
+  <div class="VPFeature" data-category="io">
+    <a href="https://biojulia.dev/MemoryViews.jl" class="feature-link">
+      <article class="box">
+        <h3 class="title">MemoryViews.jl <span class="feature-badge badge-io">I/O</span></h3>
+        <p class="details">Efficient memory views for IO operations</p>
+      </article>
+    </a>
+  </div>
+  <div class="VPFeature" data-category="files">
+    <a href="https://biojulia.dev/MMTF.jl" class="feature-link">
+      <article class="box">
+        <h3 class="title">MMTF.jl <span class="feature-badge badge-files">Files</span></h3>
+        <p class="details">Read and write MMTF macromolecular structure files</p>
+      </article>
+    </a>
+  </div>
   <div class="VPFeature" data-category="bioinformatics">
     <a href="https://biojulia.dev/NCBIBlast.jl" class="feature-link">
       <article class="box">
         <h3 class="title">NCBIBlast.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Interface to NCBI BLAST+ for sequence similarity searches</p>
+      </article>
+    </a>
+  </div>
+  <div class="VPFeature" data-category="outside">
+    <a href="https://openmendel.github.io" class="feature-link">
+      <article class="box">
+        <h3 class="title">OpenMendel <span class="feature-badge badge-outside">Outside Org</span></h3>
+        <p class="details">Statistical genetics and genomic analysis tools</p>
+      </article>
+    </a>
+  </div>
+  <div class="VPFeature" data-category="files">
+    <a href="https://biojulia.dev/PairwiseMappingFormat.jl" class="feature-link">
+      <article class="box">
+        <h3 class="title">PairwiseMappingFormat.jl <span class="feature-badge badge-files">Files</span></h3>
+        <p class="details">Read and write PAF alignment format</p>
       </article>
     </a>
   </div>
@@ -259,51 +371,11 @@ hero:
       </article>
     </a>
   </div>
-  <div class="VPFeature" data-category="files">
-    <a href="https://biojulia.dev/FASTX.jl" class="feature-link">
+  <div class="VPFeature" data-category="other">
+    <a href="https://biojulia.dev/WaveletMatrices.jl" class="feature-link">
       <article class="box">
-        <h3 class="title">FASTX.jl <span class="feature-badge badge-files">Files</span></h3>
-        <p class="details">Read and write FASTA and FASTQ files</p>
-      </article>
-    </a>
-  </div>
-  <div class="VPFeature" data-category="files">
-    <a href="https://biojulia.dev/GFF3.jl" class="feature-link">
-      <article class="box">
-        <h3 class="title">GFF3.jl <span class="feature-badge badge-files">Files</span></h3>
-        <p class="details">Read and write GFF3 format files</p>
-      </article>
-    </a>
-  </div>
-  <div class="VPFeature" data-category="files">
-    <a href="https://biojulia.dev/GraphicalFragmentAssembly.jl" class="feature-link">
-      <article class="box">
-        <h3 class="title">GraphicalFragmentAssembly.jl <span class="feature-badge badge-files">Files</span></h3>
-        <p class="details">Read and write GFA format for sequence graphs</p>
-      </article>
-    </a>
-  </div>
-  <div class="VPFeature" data-category="io">
-    <a href="https://biojulia.dev/MemoryViews.jl" class="feature-link">
-      <article class="box">
-        <h3 class="title">MemoryViews.jl <span class="feature-badge badge-io">I/O</span></h3>
-        <p class="details">Efficient memory views for IO operations</p>
-      </article>
-    </a>
-  </div>
-  <div class="VPFeature" data-category="files">
-    <a href="https://biojulia.dev/MMTF.jl" class="feature-link">
-      <article class="box">
-        <h3 class="title">MMTF.jl <span class="feature-badge badge-files">Files</span></h3>
-        <p class="details">Read and write MMTF macromolecular structure files</p>
-      </article>
-    </a>
-  </div>
-  <div class="VPFeature" data-category="files">
-    <a href="https://biojulia.dev/PairwiseMappingFormat.jl" class="feature-link">
-      <article class="box">
-        <h3 class="title">PairwiseMappingFormat.jl <span class="feature-badge badge-files">Files</span></h3>
-        <p class="details">Read and write PAF alignment format</p>
+        <h3 class="title">WaveletMatrices.jl <span class="feature-badge badge-other">Other</span></h3>
+        <p class="details">Wavelet matrix data structure for fast queries</p>
       </article>
     </a>
   </div>
@@ -323,78 +395,6 @@ hero:
       </article>
     </a>
   </div>
-  <div class="VPFeature" data-category="other">
-    <a href="https://biojulia.dev/BioGenerics.jl" class="feature-link">
-      <article class="box">
-        <h3 class="title">BioGenerics.jl <span class="feature-badge badge-other">Other</span></h3>
-        <p class="details">Generic interface definitions for BioJulia packages</p>
-      </article>
-    </a>
-  </div>
-  <div class="VPFeature" data-category="other">
-    <a href="https://biojulia.dev/BioServices.jl" class="feature-link">
-      <article class="box">
-        <h3 class="title">BioServices.jl <span class="feature-badge badge-other">Other</span></h3>
-        <p class="details">Interface to biological web services and databases</p>
-      </article>
-    </a>
-  </div>
-  <div class="VPFeature" data-category="other">
-    <a href="https://biojulia.dev/FormatSpecimens.jl" class="feature-link">
-      <article class="box">
-        <h3 class="title">FormatSpecimens.jl <span class="feature-badge badge-other">Other</span></h3>
-        <p class="details">Test specimens for biological file formats</p>
-      </article>
-    </a>
-  </div>
-  <div class="VPFeature" data-category="other">
-    <a href="https://biojulia.dev/IntervalTrees.jl" class="feature-link">
-      <article class="box">
-        <h3 class="title">IntervalTrees.jl <span class="feature-badge badge-other">Other</span></h3>
-        <p class="details">Efficient interval tree data structures</p>
-      </article>
-    </a>
-  </div>
-  <div class="VPFeature" data-category="other">
-    <a href="https://biojulia.dev/KWayMerges.jl" class="feature-link">
-      <article class="box">
-        <h3 class="title">KWayMerges.jl <span class="feature-badge badge-other">Other</span></h3>
-        <p class="details">K-way merge algorithms for sorted iterators</p>
-      </article>
-    </a>
-  </div>
-  <div class="VPFeature" data-category="other">
-    <a href="https://biojulia.dev/WaveletMatrices.jl" class="feature-link">
-      <article class="box">
-        <h3 class="title">WaveletMatrices.jl <span class="feature-badge badge-other">Other</span></h3>
-        <p class="details">Wavelet matrix data structure for fast queries</p>
-      </article>
-    </a>
-  </div>
-  <div class="VPFeature" data-category="outside">
-    <a href="https://ecojulia.org" class="feature-link">
-      <article class="box">
-        <h3 class="title">EcoJulia <span class="feature-badge badge-outside">Outside Org</span></h3>
-        <p class="details">Ecological modeling and analysis ecosystem</p>
-      </article>
-    </a>
-  </div>
-  <div class="VPFeature" data-category="outside">
-    <a href="https://juliahealth.org" class="feature-link">
-      <article class="box">
-        <h3 class="title">JuliaHealth <span class="feature-badge badge-outside">Outside Org</span></h3>
-        <p class="details">Health and medical informatics packages</p>
-      </article>
-    </a>
-  </div>
-  <div class="VPFeature" data-category="outside">
-    <a href="https://openmendel.github.io" class="feature-link">
-      <article class="box">
-        <h3 class="title">OpenMendel <span class="feature-badge badge-outside">Outside Org</span></h3>
-        <p class="details">Statistical genetics and genomic analysis tools</p>
-      </article>
-    </a>
-  </div>
 </div>
 
 <h2 class="section-header">Join the Community</h2>
@@ -405,6 +405,30 @@ hero:
       <article class="box">
         <h3 class="title">BioJulia Blog</h3>
         <p class="details">Stay up to date with the latest news, tutorials, and community updates</p>
+      </article>
+    </a>
+  </div>
+  <div class="VPFeature">
+    <a href="https://julialang.org/slack/" class="feature-link">
+      <article class="box">
+        <h3 class="title">Julia Slack</h3>
+        <p class="details">Chat with the Julia community on Slack</p>
+      </article>
+    </a>
+  </div>
+  <div class="VPFeature">
+    <a href="https://discourse.julialang.org/" class="feature-link">
+      <article class="box">
+        <h3 class="title">Julia Discourse</h3>
+        <p class="details">Ask questions and discuss with the Julia community</p>
+      </article>
+    </a>
+  </div>
+  <div class="VPFeature">
+    <a href="contributing" class="feature-link">
+      <article class="box">
+        <h3 class="title">Contributing to BioJulia</h3>
+        <p class="details">Learn how to contribute to BioJulia packages</p>
       </article>
     </a>
   </div>
