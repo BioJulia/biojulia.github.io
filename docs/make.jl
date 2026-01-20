@@ -16,12 +16,19 @@ makedocs(
         deploy_url = "biojulia.dev",
     ),
     pages = [
+        # Showcase of Cool Examples
+        "What is BioJulia?" => [
+            "overview.md",
+        ]
+        # Installation
         "Getting Started" => [
             "getting_started/juliainstallation.md",
             "getting_started/toolsinstallation.md",
             "getting_started/biojuliainstallation.md",
             "getting_started/casescenarios.md",
-        ],
+        ]
+
+        # Comparison with other packages/ecosystems
         "Comparison With Other Packages/Ecosystems" => [
             "comparisons/biopython.md",
             "comparisons/scikitbio.md",
@@ -29,12 +36,10 @@ makedocs(
             "comparisons/biojava.md",
             "comparisons/bioperl.md",
             "comparisons/bioruby.md",
-        ],
-        # Showcase of Cool Examples
-        "What is BioJulia?" => [
-            "overview.md",
         ]
     ]
+
+    
 )
 
 DocumenterVitepress.deploydocs(

@@ -1,0 +1,141 @@
+/* Custom sections container - align with VitePress home hero */
+.custom-sections {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+@media (min-width: 960px) {
+  .custom-sections {
+    padding: 0 12px;
+  }
+}
+
+.custom-sections h2,
+.section-header {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  margin-top: 48px;
+  border-top: none;
+}
+
+/* Custom feature sections */
+.VPFeatures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.VPFeature {
+  flex: 0 0 calc(25% - 16px);
+  min-width: 240px;
+  max-width: 280px;
+}
+
+.VPFeature .box {
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  padding: 24px;
+  height: 100%;
+}
+
+.VPFeature a.feature-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.VPFeature a.feature-link:hover .box {
+  background-color: var(--vp-c-bg-mute);
+}
+
+/* Feature card title - badge above name */
+.VPFeature .title {
+  display: flex !important;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+.VPFeature .details {
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+  margin: 0;
+}
+
+/* Feature card badges */
+.feature-badge {
+  display: inline-block !important;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+  white-space: nowrap;
+  margin-bottom: 4px;
+  align-self: flex-end;
+}
+
+.badge-bioinformatics {
+  background-color: #4063D8;  /* Julia blue */
+  color: white;
+}
+
+.badge-visualization {
+  background-color: #9558B2;  /* Julia purple */
+  color: white;
+}
+
+.badge-io {
+  background-color: #CB3C33;  /* Julia red */
+  color: white;
+}
+
+.badge-files {
+  background-color: #389826;  /* Julia green */
+  color: white;
+}
+
+.badge-other {
+  background-color: #6B7280;  /* Gray */
+  color: white;
+}
+
+.badge-outside {
+  background-color: #F59E0B;  /* Amber/Orange */
+  color: white;
+}
+
+/* Filter buttons */
+.filter-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 6px 14px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 20px;
+  background-color: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+  border-color: var(--vp-c-brand);
+  color: var(--vp-c-brand);
+}
+
+.filter-btn.active {
+  background-color: var(--vp-c-brand);
+  border-color: var(--vp-c-brand);
+  color: white;
+}
