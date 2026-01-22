@@ -12,7 +12,7 @@ makedocs(
     format = DocumenterVitepress.MarkdownVitepress(
         repo = "https://github.com/BioJulia/biojulia.github.io",
         devbranch = "main",
-        devurl = "",
+        devurl = "dev",
         deploy_url = "biojulia.dev",
     ),
     pages = [
