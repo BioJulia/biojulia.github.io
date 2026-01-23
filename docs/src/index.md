@@ -22,7 +22,7 @@ hero:
 
 <div class="VPFeatures">
   <div class="VPFeature">
-    <a href="https://biojulia.dev/BioTutorials" class="feature-link">
+    <a href="https://biojulia.dev/BioTutorials/dev/" class="feature-link">
       <article class="box">
         <h3 class="title">BioTutorials</h3>
         <p class="details">These are still a work in progress</p>
@@ -44,9 +44,9 @@ hero:
 
 <div class="VPFeatures" id="packages-grid">
   <div class="VPFeature" data-category="files">
-    <a href="https://biojulia.dev/2Bit.jl" class="feature-link">
+    <a href="https://biojulia.dev/TwoBit.jl" class="feature-link">
       <article class="box">
-        <h3 class="title">2Bit.jl <span class="feature-badge badge-files">Files</span></h3>
+        <h3 class="title">TwoBit.jl <span class="feature-badge badge-files">Files</span></h3>
         <p class="details">Read and write 2bit sequence files</p>
       </article>
     </a>
@@ -76,7 +76,7 @@ hero:
     </a>
   </div>
   <div class="VPFeature" data-category="files">
-    <a href="https://biojulia.dev/BGZFStreams.jl" class="feature-link">
+    <a href="https://github.com/BioJulia/BGZFStreams.jl" class="feature-link">
       <article class="box">
         <h3 class="title">BGZFStreams.jl <span class="feature-badge badge-files">Files</span></h3>
         <p class="details">Read and write BGZF compressed files</p>
@@ -84,7 +84,7 @@ hero:
     </a>
   </div>
   <div class="VPFeature" data-category="files">
-    <a href="https://biojulia.dev/BigWig.jl" class="feature-link">
+    <a href="https://biojulia.dev/BigWig.jl/dev/" class="feature-link">
       <article class="box">
         <h3 class="title">BigWig.jl <span class="feature-badge badge-files">Files</span></h3>
         <p class="details">Read and write BigWig format files</p>
@@ -188,7 +188,7 @@ hero:
     </a>
   </div>
   <div class="VPFeature" data-category="other">
-    <a href="https://biojulia.dev/FormatSpecimens.jl" class="feature-link">
+    <a href="https://github.com/BioJulia/FormatSpecimens.jl" class="feature-link">
       <article class="box">
         <h3 class="title">FormatSpecimens.jl <span class="feature-badge badge-other">Other</span></h3>
         <p class="details">Test specimens for biological file formats</p>
@@ -228,7 +228,7 @@ hero:
     </a>
   </div>
   <div class="VPFeature" data-category="files">
-    <a href="https://biojulia.dev/GraphicalFragmentAssembly.jl" class="feature-link">
+    <a href="https://github.com/BioJulia/GraphicalFragmentAssembly.jl" class="feature-link">
       <article class="box">
         <h3 class="title">GraphicalFragmentAssembly.jl <span class="feature-badge badge-files">Files</span></h3>
         <p class="details">Read and write GFA format for sequence graphs</p>
@@ -252,7 +252,7 @@ hero:
     </a>
   </div>
   <div class="VPFeature" data-category="bioinformatics">
-    <a href="https://biojulia.dev/KmerAnalysis.jl" class="feature-link">
+    <a href="https://biojulia.dev/KmerAnalysis.jl/dev/" class="feature-link">
       <article class="box">
         <h3 class="title">KmerAnalysis.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">K-mer counting and analysis tools</p>
@@ -268,7 +268,7 @@ hero:
     </a>
   </div>
   <div class="VPFeature" data-category="other">
-    <a href="https://biojulia.dev/KWayMerges.jl" class="feature-link">
+    <a href="https://github.com/BioJulia/KWayMerges.jl" class="feature-link">
       <article class="box">
         <h3 class="title">KWayMerges.jl <span class="feature-badge badge-other">Other</span></h3>
         <p class="details">K-way merge algorithms for sorted iterators</p>
@@ -284,7 +284,7 @@ hero:
     </a>
   </div>
   <div class="VPFeature" data-category="files">
-    <a href="https://biojulia.dev/MMTF.jl" class="feature-link">
+    <a href="https://github.com/BioJulia/MMTF.jl" class="feature-link">
       <article class="box">
         <h3 class="title">MMTF.jl <span class="feature-badge badge-files">Files</span></h3>
         <p class="details">Read and write MMTF macromolecular structure files</p>
@@ -292,7 +292,7 @@ hero:
     </a>
   </div>
   <div class="VPFeature" data-category="bioinformatics">
-    <a href="https://biojulia.dev/NCBIBlast.jl" class="feature-link">
+    <a href="https://github.com/BioJulia/NCBIBlast.jl" class="feature-link">
       <article class="box">
         <h3 class="title">NCBIBlast.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Interface to NCBI BLAST+ for sequence similarity searches</p>
@@ -324,7 +324,7 @@ hero:
     </a>
   </div>
   <div class="VPFeature" data-category="bioinformatics">
-    <a href="https://biojulia.dev/PopGenCore.jl" class="feature-link">
+    <a href="https://github.com/BioJulia/PopGenCore.jl" class="feature-link">
       <article class="box">
         <h3 class="title">PopGenCore.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Core types and functions for population genetics</p>
@@ -372,7 +372,7 @@ hero:
     </a>
   </div>
   <div class="VPFeature" data-category="other">
-    <a href="https://biojulia.dev/WaveletMatrices.jl" class="feature-link">
+    <a href="https://github.com/BioJulia/WaveletMatrices.jl" class="feature-link">
       <article class="box">
         <h3 class="title">WaveletMatrices.jl <span class="feature-badge badge-other">Other</span></h3>
         <p class="details">Wavelet matrix data structure for fast queries</p>
