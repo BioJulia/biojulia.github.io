@@ -46,7 +46,7 @@ detailed contributor and maintainer guidelines, and code of conduct.
 
 ## Questions?
 
-Feel free to open a new discussion under the [BioJuliaDocs Discussions](https://github.com/BioJulia/discussions) section.
+Feel free to open a new discussion under the [BioJuliaDocs Discussions](https://github.com/orgs/BioJulia/discussions) section.
 Alternatively, one can chat with the community either via the [Slack](https://julialang.org/slack/) #biology workspace
 or in the [forums](https://discourse.julialang.org/).
 
