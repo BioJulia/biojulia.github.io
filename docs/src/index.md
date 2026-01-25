@@ -48,6 +48,7 @@ hero:
       <article class="box">
         <h3 class="title">TwoBit.jl <span class="feature-badge badge-files">Files</span></h3>
         <p class="details">Read and write 2bit sequence files</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -56,6 +57,7 @@ hero:
       <article class="box">
         <h3 class="title">Automa.jl <span class="feature-badge badge-files">Files</span></h3>
         <p class="details">Efficient state-machine generation to quickly and correctly parse bespoke file formats</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -64,6 +66,7 @@ hero:
       <article class="box">
         <h3 class="title">BED.jl <span class="feature-badge badge-files">Files</span></h3>
         <p class="details">Read and write BED format files</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -72,6 +75,7 @@ hero:
       <article class="box">
         <h3 class="title">BGZFLib.jl <span class="feature-badge badge-files">Files</span></h3>
         <p class="details">Low-level BGZF compression library</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -80,6 +84,7 @@ hero:
       <article class="box">
         <h3 class="title">BGZFStreams.jl <span class="feature-badge badge-files">Files</span></h3>
         <p class="details">Read and write BGZF compressed files</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -88,6 +93,7 @@ hero:
       <article class="box">
         <h3 class="title">BigWig.jl <span class="feature-badge badge-files">Files</span></h3>
         <p class="details">Read and write BigWig format files</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -96,6 +102,7 @@ hero:
       <article class="box">
         <h3 class="title">BioAlignments.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Sequence alignment algorithms and data structures</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -104,6 +111,7 @@ hero:
       <article class="box">
         <h3 class="title">BioGenerics.jl <span class="feature-badge badge-other">Other</span></h3>
         <p class="details">Generic interface definitions for BioJulia packages</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -112,6 +120,7 @@ hero:
       <article class="box">
         <h3 class="title">BioMakie.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Visualize sequences and 3D proteins with ease</p>
+        <img src="/assets/BioMakieLogo.png" alt="BioMakie.jl logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -120,6 +129,7 @@ hero:
       <article class="box">
         <h3 class="title">BioMarkovChains.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Markov chain models for biological sequences</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -128,6 +138,7 @@ hero:
       <article class="box">
         <h3 class="title">BioSequences.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Optimized types for working with biological sequences (eg DNA, RNA, proteins)</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -136,6 +147,7 @@ hero:
       <article class="box">
         <h3 class="title">BioServices.jl <span class="feature-badge badge-other">Other</span></h3>
         <p class="details">Interface to biological web services and databases</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -144,6 +156,7 @@ hero:
       <article class="box">
         <h3 class="title">BioStructures.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Read, write, and manipulate macromolecular structures (PDB, mmCIF)</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -152,6 +165,7 @@ hero:
       <article class="box">
         <h3 class="title">BioSymbols.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Primitive types for nucleotides and amino acids</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -160,6 +174,7 @@ hero:
       <article class="box">
         <h3 class="title">BufferIO.jl <span class="feature-badge badge-io">I/O</span></h3>
         <p class="details">IO interface for buffer operations</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -168,6 +183,7 @@ hero:
       <article class="box">
         <h3 class="title">CIGARStrings.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Parse and manipulate CIGAR strings for sequence alignments</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -184,6 +200,7 @@ hero:
       <article class="box">
         <h3 class="title">FASTX.jl <span class="feature-badge badge-files">Files</span></h3>
         <p class="details">Read and write FASTA and FASTQ files</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -192,6 +209,7 @@ hero:
       <article class="box">
         <h3 class="title">FormatSpecimens.jl <span class="feature-badge badge-other">Other</span></h3>
         <p class="details">Test specimens for biological file formats</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -200,6 +218,7 @@ hero:
       <article class="box">
         <h3 class="title">GeneticVariation.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Types and methods for working with genetic variation data</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -208,6 +227,7 @@ hero:
       <article class="box">
         <h3 class="title">GenomicAnnotations.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Read and write genomic annotations (GFF3, GenBank, EMBL)</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -216,6 +236,7 @@ hero:
       <article class="box">
         <h3 class="title">GenomicFeatures.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Genomic interval operations and data structures</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -224,6 +245,7 @@ hero:
       <article class="box">
         <h3 class="title">GFF3.jl <span class="feature-badge badge-files">Files</span></h3>
         <p class="details">Read and write GFF3 format files</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -232,6 +254,7 @@ hero:
       <article class="box">
         <h3 class="title">GraphicalFragmentAssembly.jl <span class="feature-badge badge-files">Files</span></h3>
         <p class="details">Read and write GFA format for sequence graphs</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -240,6 +263,7 @@ hero:
       <article class="box">
         <h3 class="title">IntervalTrees.jl <span class="feature-badge badge-other">Other</span></h3>
         <p class="details">Efficient interval tree data structures</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -256,6 +280,7 @@ hero:
       <article class="box">
         <h3 class="title">KmerAnalysis.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">K-mer counting and analysis tools</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -264,6 +289,7 @@ hero:
       <article class="box">
         <h3 class="title">Kmers.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Efficient k-mer representation and operations</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -272,6 +298,7 @@ hero:
       <article class="box">
         <h3 class="title">KWayMerges.jl <span class="feature-badge badge-other">Other</span></h3>
         <p class="details">K-way merge algorithms for sorted iterators</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -280,6 +307,7 @@ hero:
       <article class="box">
         <h3 class="title">MemoryViews.jl <span class="feature-badge badge-io">I/O</span></h3>
         <p class="details">Efficient memory views for IO operations</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -288,6 +316,7 @@ hero:
       <article class="box">
         <h3 class="title">MMTF.jl <span class="feature-badge badge-files">Files</span></h3>
         <p class="details">Read and write MMTF macromolecular structure files</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -296,6 +325,7 @@ hero:
       <article class="box">
         <h3 class="title">NCBIBlast.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Interface to NCBI BLAST+ for sequence similarity searches</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -312,6 +342,7 @@ hero:
       <article class="box">
         <h3 class="title">PairwiseMappingFormat.jl <span class="feature-badge badge-files">Files</span></h3>
         <p class="details">Read and write PAF alignment format</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -320,6 +351,7 @@ hero:
       <article class="box">
         <h3 class="title">PopGen.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Population genetics analysis and simulation</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -328,6 +360,7 @@ hero:
       <article class="box">
         <h3 class="title">PopGenCore.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Core types and functions for population genetics</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -336,6 +369,7 @@ hero:
       <article class="box">
         <h3 class="title">ProteinSecondaryStructures.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Analyze and predict protein secondary structures</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -344,6 +378,7 @@ hero:
       <article class="box">
         <h3 class="title">ReadDatastores.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Efficient storage and access for sequencing read data</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -352,6 +387,7 @@ hero:
       <article class="box">
         <h3 class="title">SequenceVariation.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Represent and manipulate sequence variations (mutations, variants)</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -360,6 +396,7 @@ hero:
       <article class="box">
         <h3 class="title">SingleCellProjections.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">More cells? No Problem! Get UMAPs and other projections of your single cell data using the power of Sparse Matrices</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -368,6 +405,7 @@ hero:
       <article class="box">
         <h3 class="title">SubstitutionModels.jl <span class="feature-badge badge-bioinformatics">Bioinformatics</span></h3>
         <p class="details">Nucleotide and amino acid substitution models for phylogenetics</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -376,6 +414,7 @@ hero:
       <article class="box">
         <h3 class="title">WaveletMatrices.jl <span class="feature-badge badge-other">Other</span></h3>
         <p class="details">Wavelet matrix data structure for fast queries</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -384,6 +423,7 @@ hero:
       <article class="box">
         <h3 class="title">XAM.jl <span class="feature-badge badge-files">Files</span></h3>
         <p class="details">Read and write SAM and BAM files</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>
@@ -392,6 +432,7 @@ hero:
       <article class="box">
         <h3 class="title">XAMAuxData.jl <span class="feature-badge badge-files">Files</span></h3>
         <p class="details">Auxiliary data handling for SAM/BAM files</p>
+        <img src="/assets/logo.png" alt="BioJulia logo" class="feature-logo">
       </article>
     </a>
   </div>

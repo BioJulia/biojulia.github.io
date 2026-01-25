@@ -39,6 +39,8 @@
   border-radius: 12px;
   padding: 24px;
   height: 100%;
+  position: relative;
+  padding-bottom: 60px;
 }
 
 .VPFeature a.feature-link {
@@ -138,4 +140,14 @@
   background-color: var(--vp-c-brand);
   border-color: var(--vp-c-brand);
   color: white;
+}
+
+/* Feature logo styling */
+.feature-logo {
+  max-width: 48px;
+  max-height: 48px;
+  object-fit: contain;
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
 }
