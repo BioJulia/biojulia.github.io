@@ -425,7 +425,7 @@ hero:
     </a>
   </div>
   <div class="VPFeature">
-    <a href="contributing" class="feature-link">
+    <a href="https://github.com/BioJulia/biojulia.github.io/blob/main/CONTRIBUTING.md" class="feature-link" rel="external">
       <article class="box">
         <h3 class="title">Contributing to BioJulia</h3>
         <p class="details">Learn how to contribute to BioJulia packages</p>
