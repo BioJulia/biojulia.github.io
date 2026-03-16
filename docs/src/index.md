@@ -22,7 +22,7 @@ hero:
 
 <div class="VPFeatures">
   <div class="VPFeature">
-    <a href="https://biojulia.dev/BioTutorials/dev/" class="feature-link" target="_blank" rel="noopener noreferrer">
+    <a href="https://biojulia.dev/BioTutorials" class="feature-link" target="_blank" rel="noopener noreferrer">
       <article class="box">
         <h3 class="title">BioTutorials</h3>
         <p class="details">These are still a work in progress</p>
