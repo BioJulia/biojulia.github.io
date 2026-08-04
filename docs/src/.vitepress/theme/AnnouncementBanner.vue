@@ -24,7 +24,7 @@
 <script setup>
 import { ref, onMounted, watch, nextTick } from 'vue'
 
-const isVisible = ref(false)
+const isVisible = ref(true)
 const storageKey = 'biojulia-juliacon2026-banner-dismissed'
 
 function updateBannerHeight() {
@@ -68,9 +68,9 @@ function dismiss() {
     <div class="announcement-content">
       <span class="announcement-icon">📢</span>
       <span class="announcement-text">
-        <strong>JuliaCon 2026:</strong> Submit your BioJulia abstract!
-        <a href="https://pretalx.com/juliacon-2026/talk/KUTGMY/" target="_blank" rel="noopener noreferrer">
-          Submit here →
+        <strong>JuliaCon 2026:</strong> Come to the Bio Minisymposium and BoF session!
+        <a href="https://pretalx.com/juliacon-2026/talk/review/RXWNWHHQFMBWFXRZKBCEJKW3N3RE3FBF" target="_blank" rel="noopener noreferrer">
+          Details here →
         </a>
       </span>
       <button @click="dismiss" class="announcement-close" aria-label="Dismiss announcement">
