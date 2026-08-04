@@ -68,7 +68,7 @@ function dismiss() {
     <div class="announcement-content">
       <span class="announcement-icon">📢</span>
       <span class="announcement-text">
-        <strong>JuliaCon 2026:</strong> Come to the Bio Minisymposium and BoF session!
+        <strong>JuliaCon 2026:</strong> Come to the Bio Minisymposium and BoF session! Aug 13, 10a Muschel — N1
         <a href="https://pretalx.com/juliacon-2026/talk/review/RXWNWHHQFMBWFXRZKBCEJKW3N3RE3FBF" target="_blank" rel="noopener noreferrer">
           Details here →
         </a>
