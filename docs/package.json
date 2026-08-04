@@ -5,6 +5,8 @@
     "docs:preview": "vitepress preview build/.documenter"
   },
   "dependencies": {
+    "@mathjax/src": "^4.1.3",
+    "@mdit/plugin-tex": "^1.0.2",
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.12.1",
     "@shikijs/transformers": "^2.0.3",
     "markdown-it": "^14.1.0",

@@ -68,9 +68,9 @@ function dismiss() {
     <div class="announcement-content">
       <span class="announcement-icon">📢</span>
       <span class="announcement-text">
-        <strong>JuliaCon 2026:</strong> Submit your BioJulia abstract!
-        <a href="https://pretalx.com/juliacon-2026/talk/KUTGMY/" target="_blank" rel="noopener noreferrer">
-          Submit here →
+        <strong>JuliaCon 2026:</strong> Come to the Bio Minisymposium and BoF session! Aug 13, 10a Muschel — N1
+        <a href="https://pretalx.com/juliacon-2026/talk/review/RXWNWHHQFMBWFXRZKBCEJKW3N3RE3FBF" target="_blank" rel="noopener noreferrer">
+          Details here →
         </a>
       </span>
       <button @click="dismiss" class="announcement-close" aria-label="Dismiss announcement">
@@ -200,9 +200,8 @@ function dismiss() {
   transition: top 0.3s ease !important;
 }
 
-/* Adjust content area */
-.VPContent {
-  padding-top: var(--banner-height, 0) !important;
-  transition: padding-top 0.3s ease !important;
+/* Adjust scroll padding for anchor links to account for banner */
+html {
+  scroll-padding-top: calc(var(--vp-nav-height) + var(--banner-height, 0)) !important;
 }
 </style>
