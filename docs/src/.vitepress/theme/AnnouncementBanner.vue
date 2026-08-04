@@ -24,7 +24,7 @@
 <script setup>
 import { ref, onMounted, watch, nextTick } from 'vue'
 
-const isVisible = ref(true)
+const isVisible = ref(false)
 const storageKey = 'biojulia-juliacon2026-banner-dismissed'
 
 function updateBannerHeight() {
@@ -200,9 +200,8 @@ function dismiss() {
   transition: top 0.3s ease !important;
 }
 
-/* Adjust content area */
-.VPContent {
-  padding-top: var(--banner-height, 0) !important;
-  transition: padding-top 0.3s ease !important;
+/* Adjust scroll padding for anchor links to account for banner */
+html {
+  scroll-padding-top: calc(var(--vp-nav-height) + var(--banner-height, 0)) !important;
 }
 </style>
