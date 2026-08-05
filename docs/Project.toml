@@ -20,3 +20,6 @@ PopGen = "af524d12-c74b-11e9-22a8-3b091653023f"
 ReadDatastores = "70a005b8-9d8a-11e9-0d98-c909fa2e52d2"
 SubstitutionModels = "8365b1bb-bd83-58ee-a267-f2965fc81c73"
 XAM = "d759349c-bcba-11e9-07c2-5b90f8f05f7c"
+
+[compat]
+DocumenterVitepress = "0.3"
