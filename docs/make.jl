@@ -13,7 +13,7 @@ makedocs(
         repo = "https://github.com/BioJulia/biojulia.github.io",
         devbranch = "main",
         devurl = "dev",
-        deploy_url = "biojulia.dev",
+        deploy_url = "https://biojulia.dev",
     ),
     pages = [
         # Showcase of Cool Examples
